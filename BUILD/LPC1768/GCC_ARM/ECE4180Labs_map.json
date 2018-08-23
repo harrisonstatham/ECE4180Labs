@@ -4,7 +4,7 @@
         "size": {
             ".data": 0, 
             ".bss": 0, 
-            ".text": 44
+            ".text": 36
         }
     }, 
     {
@@ -12,15 +12,15 @@
         "size": {
             ".data": 0, 
             ".bss": 8, 
-            ".text": 1036
+            ".text": 1030
         }
     }, 
     {
         "module": "[fill]", 
         "size": {
             ".data": 0, 
-            ".bss": 20, 
-            ".text": 647
+            ".bss": 24, 
+            ".text": 634
         }
     }, 
     {
@@ -28,7 +28,7 @@
         "size": {
             ".data": 2472, 
             ".bss": 89, 
-            ".text": 27845
+            ".text": 17155
         }
     }, 
     {
@@ -60,7 +60,7 @@
         "size": {
             ".data": 0, 
             ".bss": 0, 
-            ".text": 1429
+            ".text": 392
         }
     }, 
     {
@@ -75,8 +75,8 @@
         "module": "mbed-os/platform", 
         "size": {
             ".data": 260, 
-            ".bss": 217, 
-            ".text": 4806
+            ".bss": 133, 
+            ".text": 2894
         }
     }, 
     {
@@ -84,7 +84,7 @@
         "size": {
             ".data": 168, 
             ".bss": 6073, 
-            ".text": 8884
+            ".text": 8440
         }
     }, 
     {
@@ -92,13 +92,13 @@
         "size": {
             ".data": 32, 
             ".bss": 245, 
-            ".text": 4202
+            ".text": 4150
         }
     }, 
     {
         "summary": {
-            "static_ram": 9696, 
-            "total_flash": 58978
+            "static_ram": 9616, 
+            "total_flash": 44816
         }
     }
 ]

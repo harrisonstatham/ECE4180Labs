@@ -1,5 +1,5 @@
 //--------------------------------------------------------------------------
-// Basic PWM with LED Dimming
+// 1.2 Basic PWM with LED Dimming
 //
 // Use two pushbuttons to dim one of mbed’s builtin LEDs using PWM
 //
@@ -25,25 +25,31 @@ namespace Lab1 {
 	// The incremental increase/decrease in the PWM level.
 	#define PWM_LEVEL_DELTA 0.1
 
-	// Store the CurrentPWMLevel in a register -- might be unnecessary.
-	volatile double CurrentPWMLevel = 0;
-
-	// Turn up the brightness.
-	void BrighterButtonPressed(void)
+	// Stuff everything in BasicPWMNS to avoid namespace collisions with 
+	// anything that might be using similar names.
+	namespace BasicPWMNS
 	{
-		if(CurrentPWMLevel < 1.0)
-		{
-			CurrentPWMLevel += PWM_LEVEL_DELTA;
-		}
-	}
+		// Store the CurrentPWMLevel in a register -- might be unnecessary.
+		volatile double CurrentPWMLevel = 0;
 
-	// Turn down the brightness.
-	void DimmerButtonPressed(void)
-	{
-		if(CurrentPWMLevel > 0)
+		// Turn up the brightness.
+		void BrighterButtonPressed(void)
 		{
-			CurrentPWMLevel -= PWM_LEVEL_DELTA;
+			if(CurrentPWMLevel < 1.0)
+			{
+				CurrentPWMLevel += PWM_LEVEL_DELTA;
+			}
 		}
+
+		// Turn down the brightness.
+		void DimmerButtonPressed(void)
+		{
+			if(CurrentPWMLevel > 0)
+			{
+				CurrentPWMLevel -= PWM_LEVEL_DELTA;
+			}
+		}
+
 	}
 
 
@@ -59,7 +65,7 @@ namespace Lab1 {
 		BrighterButton.mode( PullDown );
 
 		// Setup the pressed handler.
-		BrighterButton.attach_asserted( &BrighterButtonPressed );
+		BrighterButton.attach_asserted( &BasicPWMNS::BrighterButtonPressed );
 
 		//BrighterButton.attach_deasserted( &BrighterButtonReleased );
 
@@ -75,7 +81,7 @@ namespace Lab1 {
 		DimmerButton.mode( PullDown );		
 
 		// Setup the pressed handler.
-		DimmerButton.attach_asserted( &DimmerButtonPressed );
+		DimmerButton.attach_asserted( &BasicPWMNS::DimmerButtonPressed );
 
 		//DimmerButton.attach_deasserted( &DimmerButtonReleased );
 
@@ -87,17 +93,17 @@ namespace Lab1 {
 		// Setup the PWM output on the LED.
 		PwmOut led(LED1);
 
-		Serial pc(USBTX, USBRX); // tx, rx
-		   
-		pc.printf("Starting Program...\n\r");
+		DigitalOut led2(LED2);
 
+		//Serial pc(USBTX, USBRX); // tx, rx
 
+		led2 = 1;
 
 		while(true) 
 		{
-			led = CurrentPWMLevel;
-				
-			wait( 0.2 );
+			led = BasicPWMNS::CurrentPWMLevel;
+
+			wait( 0.1 );
 	    }
 
 	}

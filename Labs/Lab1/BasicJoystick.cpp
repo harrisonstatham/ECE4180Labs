@@ -1,8 +1,10 @@
 //--------------------------------------------------------------------------
+// 1.4 Basic Joystick Control
 //
+// Hookup and run the navigation switch demo program. The mbed’s built-in 
+// LEDs showwhich switches have been activated.
 //
-//
-//
+// Kristina Beck
 //
 
 #include "BasicJoystick.hpp"
@@ -15,6 +17,9 @@ namespace Lab1 {
         BusOut LEDS(LED1,LED2,LED3,LED4);
 
         Common::NavigationSwitch NavSwitch( p9, p6, p7, p5, p8); //pin order on Sparkfun breakout
+
+        
+        // ref: https://developer.mbed.org/users/4180_1/notebook/using-a-navigation-switch-digital-joystick/
 
         while(1) {
             //with pullups a button hit is a "0" - "~" inverts data to leds
