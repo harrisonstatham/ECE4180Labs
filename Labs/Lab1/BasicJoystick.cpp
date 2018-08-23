@@ -5,7 +5,7 @@
 //
 //
 
-#include "Joystick.hpp"
+#include "BasicJoystick.hpp"
 
 namespace Lab1 {
 

@@ -12,6 +12,7 @@ namespace Lab1 {
 	// The incremental increase/decrease in the PWM level.
 	#define PWM_LEVEL_DELTA 0.1
 
+	// Internal namespace to avoid namespace name collisions.
     namespace PWM_RGB
     {
         // Store the CurrentPWMLevel in a register -- might be unnecessary.

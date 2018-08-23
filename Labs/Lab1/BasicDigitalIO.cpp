@@ -8,7 +8,7 @@
 //
 //
 
-#include "Lab1/BasicDigitalIO.hpp"
+#include "BasicDigitalIO.hpp"
 
 #include "DebounceIn.hpp"
 

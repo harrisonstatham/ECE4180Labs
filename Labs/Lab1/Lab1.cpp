@@ -9,7 +9,8 @@
 #include "BasicDigitalIO.hpp"
 #include "BasicPWM.hpp"
 #include "PwmRgbLed.hpp"
-#include "Joystick.hpp"
+#include "BasicJoystick.hpp"
+#include "USBJoystick.hpp"
 
 namespace Lab1 {
 
@@ -22,6 +23,8 @@ namespace Lab1 {
 		PwmRgbLed();
 
 		NavigationSwitchDemo();
+
+		USBJoystick();
 	}
 
 }
