@@ -124,4 +124,4 @@ BUILD/LPC1768/GCC_ARM/Labs/Lab1/BasicJoystick.o: \
  mbed-os/platform/CriticalSectionLock.h mbed-os/platform/DeepSleepLock.h \
  mbed-os/platform/mbed_stats.h mbed-os/platform/Callback.h \
  mbed-os/platform/FunctionPointer.h mbed-os/platform/ScopedLock.h \
- Common/NavigationSwitch.hpp Common/../mbed-os/mbed.h
+ Common/NavigationSwitch.hpp

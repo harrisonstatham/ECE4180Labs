@@ -3,7 +3,7 @@
 #define NavigationSwitch_H
 
 
-#include "../mbed-os/mbed.h"
+#include "mbed.h"
 #include "stdint.h"
  
  

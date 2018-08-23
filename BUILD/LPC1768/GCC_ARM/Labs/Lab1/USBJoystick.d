@@ -123,8 +123,8 @@ BUILD/LPC1768/GCC_ARM/Labs/Lab1/USBJoystick.o: Labs/Lab1/USBJoystick.cpp \
  mbed-os/platform/CriticalSectionLock.h mbed-os/platform/DeepSleepLock.h \
  mbed-os/platform/mbed_stats.h mbed-os/platform/Callback.h \
  mbed-os/platform/FunctionPointer.h mbed-os/platform/ScopedLock.h \
- Common/NavigationSwitch.hpp Common/../mbed-os/mbed.h \
- Common/USBDevice/USBHID/USBMouse.h Common/USBDevice/USBHID/USBHID.h \
+ Common/NavigationSwitch.hpp Common/USBDevice/USBHID/USBMouse.h \
+ Common/USBDevice/USBHID/USBHID.h \
  Common/USBDevice/USBDevice/USBEndpoints.h \
  Common/USBDevice/targets/TARGET_NXP/USBEndpoints_LPC17_LPC23.h \
  Common/USBDevice/USBDevice/USBDescriptor.h \

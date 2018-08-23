@@ -2,25 +2,25 @@
     {
         "module": "Common/USBDevice", 
         "size": {
-            ".data": 354, 
-            ".bss": 34, 
-            ".text": 5666
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 36
         }
     }, 
     {
-        "module": "Labs/Lab1", 
+        "module": "Examples/LEDBinaryCounter.o", 
         "size": {
             ".data": 0, 
-            ".bss": 16, 
-            ".text": 2286
+            ".bss": 0, 
+            ".text": 516
         }
     }, 
     {
         "module": "[fill]", 
         "size": {
-            ".data": 6, 
-            ".bss": 22, 
-            ".text": 668
+            ".data": 4, 
+            ".bss": 20, 
+            ".text": 625
         }
     }, 
     {
@@ -28,7 +28,7 @@
         "size": {
             ".data": 2472, 
             ".bss": 89, 
-            ".text": 17155
+            ".text": 17139
         }
     }, 
     {
@@ -36,7 +36,7 @@
         "size": {
             ".data": 0, 
             ".bss": 0, 
-            ".text": 4756
+            ".text": 3916
         }
     }, 
     {
@@ -52,7 +52,7 @@
         "size": {
             ".data": 0, 
             ".bss": 0, 
-            ".text": 10
+            ".text": 34
         }
     }, 
     {
@@ -60,7 +60,7 @@
         "size": {
             ".data": 0, 
             ".bss": 0, 
-            ".text": 1320
+            ".text": 20
         }
     }, 
     {
@@ -68,7 +68,7 @@
         "size": {
             ".data": 4, 
             ".bss": 68, 
-            ".text": 1961
+            ".text": 1791
         }
     }, 
     {
@@ -76,7 +76,7 @@
         "size": {
             ".data": 260, 
             ".bss": 133, 
-            ".text": 2894
+            ".text": 2813
         }
     }, 
     {
@@ -84,21 +84,21 @@
         "size": {
             ".data": 168, 
             ".bss": 6073, 
-            ".text": 8884
+            ".text": 8440
         }
     }, 
     {
         "module": "mbed-os/targets", 
         "size": {
-            ".data": 32, 
-            ".bss": 245, 
-            ".text": 4206
+            ".data": 4, 
+            ".bss": 241, 
+            ".text": 3582
         }
     }, 
     {
         "summary": {
-            "static_ram": 10016, 
-            "total_flash": 53366
+            "static_ram": 9576, 
+            "total_flash": 42088
         }
     }
 ]

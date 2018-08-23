@@ -126,8 +126,8 @@ BUILD/LPC1768/GCC_ARM/Labs/Lab1/Lab1.o: Labs/Lab1/Lab1.cpp \
  Labs/Lab1/Headers/BasicDigitalIO.hpp Labs/Lab1/Headers/BasicPWM.hpp \
  Common/PinDetect/PinDetect.hpp Labs/Lab1/Headers/PwmRgbLed.hpp \
  Labs/Lab1/Headers/BasicJoystick.hpp Common/NavigationSwitch.hpp \
- Common/../mbed-os/mbed.h Labs/Lab1/Headers/USBJoystick.hpp \
- Common/USBDevice/USBHID/USBMouse.h Common/USBDevice/USBHID/USBHID.h \
+ Labs/Lab1/Headers/USBJoystick.hpp Common/USBDevice/USBHID/USBMouse.h \
+ Common/USBDevice/USBHID/USBHID.h \
  Common/USBDevice/USBDevice/USBEndpoints.h \
  Common/USBDevice/targets/TARGET_NXP/USBEndpoints_LPC17_LPC23.h \
  Common/USBDevice/USBDevice/USBDescriptor.h \

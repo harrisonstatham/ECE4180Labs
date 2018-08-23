@@ -1,5 +1,6 @@
-BUILD/LPC1768/GCC_ARM/main.o: main.cpp \
- BUILD/LPC1768/GCC_ARM/mbed_config.h mbed-os/mbed.h \
+BUILD/LPC1768/GCC_ARM/Examples/LEDBinaryCounter.o: \
+ Examples/LEDBinaryCounter.cpp BUILD/LPC1768/GCC_ARM/mbed_config.h \
+ Examples/Headers/LEDBinaryCounter.hpp mbed-os/mbed.h \
  mbed-os/platform/mbed_version.h mbed-os/rtos/rtos.h \
  mbed-os/rtos/TARGET_CORTEX/mbed_rtos_storage.h \
  mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_lib.h \
@@ -122,5 +123,4 @@ BUILD/LPC1768/GCC_ARM/main.o: main.cpp \
  mbed-os/platform/FileHandle.h mbed-os/platform/DirHandle.h \
  mbed-os/platform/CriticalSectionLock.h mbed-os/platform/DeepSleepLock.h \
  mbed-os/platform/mbed_stats.h mbed-os/platform/Callback.h \
- mbed-os/platform/FunctionPointer.h mbed-os/platform/ScopedLock.h \
- Examples/Headers/LEDBinaryCounter.hpp
+ mbed-os/platform/FunctionPointer.h mbed-os/platform/ScopedLock.h
