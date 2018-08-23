@@ -10,9 +10,7 @@
 
 #include "mbed.h"
 
-namespace Lab1 
-{
-    void RunLab();
-}
+#include "BasicDigitalIO.hpp"
+
 
 #endif

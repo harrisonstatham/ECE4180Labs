@@ -8,11 +8,11 @@
         }
     }, 
     {
-        "module": "Examples/LEDBinaryCounter.o", 
+        "module": "Labs/Lab1", 
         "size": {
             ".data": 0, 
             ".bss": 0, 
-            ".text": 540
+            ".text": 198
         }
     }, 
     {
@@ -20,7 +20,7 @@
         "size": {
             ".data": 4, 
             ".bss": 20, 
-            ".text": 623
+            ".text": 621
         }
     }, 
     {
@@ -36,7 +36,7 @@
         "size": {
             ".data": 0, 
             ".bss": 0, 
-            ".text": 3916
+            ".text": 3168
         }
     }, 
     {
@@ -52,7 +52,7 @@
         "size": {
             ".data": 0, 
             ".bss": 0, 
-            ".text": 28
+            ".text": 8
         }
     }, 
     {
@@ -76,7 +76,7 @@
         "size": {
             ".data": 260, 
             ".bss": 133, 
-            ".text": 2813
+            ".text": 2789
         }
     }, 
     {
@@ -98,7 +98,7 @@
     {
         "summary": {
             "static_ram": 9576, 
-            "total_flash": 42104
+            "total_flash": 40968
         }
     }
 ]

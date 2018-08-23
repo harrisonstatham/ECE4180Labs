@@ -123,5 +123,4 @@ BUILD/LPC1768/GCC_ARM/Labs/Lab1/BasicDigitalIO.o: \
  mbed-os/platform/FileHandle.h mbed-os/platform/DirHandle.h \
  mbed-os/platform/CriticalSectionLock.h mbed-os/platform/DeepSleepLock.h \
  mbed-os/platform/mbed_stats.h mbed-os/platform/Callback.h \
- mbed-os/platform/FunctionPointer.h mbed-os/platform/ScopedLock.h \
- Common/DebounceIn/DebounceIn.hpp
+ mbed-os/platform/FunctionPointer.h mbed-os/platform/ScopedLock.h

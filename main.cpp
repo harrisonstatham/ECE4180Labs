@@ -1,30 +1,21 @@
 //--------------------------------------------------------------------------
+// ECE 4180 Labs Main Entry Point
+//  
+// Kristina Beck
+// Harrison Statham
 //
-//
-//
-//
+// Fall 2018
 //
 
 #include "stdint.h"
 #include "mbed.h"   
 
-//#include "Lab1.hpp"
-
-#include "LEDBinaryCounter.hpp"
+#include "Lab1.hpp"
 
 
 int main() {
 	
-    using namespace Examples;
-	//Lab1::RunLab();
-    
-    Examples::LEDBinaryCounter TheCounter;
-
-    // Count up
-    TheCounter.Run(true);
-
-    // Now count down
-    TheCounter.Run(false);
+    Lab1::BasicDigitalIO();
 
 
     while(1) {}

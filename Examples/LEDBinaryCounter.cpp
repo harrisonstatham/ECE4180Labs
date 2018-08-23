@@ -1,8 +1,9 @@
 //--------------------------------------------------------------------------
+// LED Binary Counter
 //
+// Counts up in binary using the LEDs on the MBED board as a "display".
 //
-//
-//
+// Harrison Statham
 //
 
 #include "LEDBinaryCounter.hpp"

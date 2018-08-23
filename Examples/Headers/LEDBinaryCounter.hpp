@@ -1,9 +1,26 @@
 //--------------------------------------------------------------------------
+// LED Binary Counter
 //
+// Counts up in binary using the LEDs on the MBED board as a "display".
 //
+// Harrison Statham
 //
-//
-//
+
+/*
+int main()
+{
+    Examples::LEDBinaryCounter TheCounter;
+
+    // Count up
+    TheCounter.Run(true);
+
+    // Now count down
+    TheCounter.Run(false);
+
+    // Do something forever.
+    while(true) {}
+}
+*/
 
 #ifndef LEDBINARYCOUNTER_HPP
 #define LEDBINARYCOUNTER_HPP

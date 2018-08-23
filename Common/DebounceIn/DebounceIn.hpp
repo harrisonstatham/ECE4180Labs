@@ -69,7 +69,10 @@ namespace Common
              *
              * @param int i The debounce sample period time to set.
              */        
-            void set_debounce_us(int i) { _ticker.attach_us(this, &DebounceIn::_callback, i); }
+            void set_debounce_us(int i) 
+            { 
+                _ticker.attach_us(this, &DebounceIn::_callback, i); 
+            }
             
             /** set_samples
              *
@@ -98,7 +101,12 @@ namespace Common
              * 
              * @param PinName pin The pin to assign as an input.
              */
-            DebounceIn(PinName pin) : DigitalIn(pin) { _counter = 0; _samples = 10; set_debounce_us(1000); };
+            DebounceIn(PinName pin) : DigitalIn(pin) 
+            { 
+                _counter = 0; 
+                _samples = 10; 
+                set_debounce_us(1000); 
+            };
             
         protected:
             void _callback(void) { 
