@@ -39,9 +39,9 @@ namespace Examples
     void LEDBinaryCounter::Ones()
     {
         Led1 = 1;
-        Led2 = 2;
-        Led3 = 3;
-        Led4 = 4;
+        Led2 = 1;
+        Led3 = 1;
+        Led4 = 1;
     }
 
     #pragma endregion
@@ -60,22 +60,22 @@ namespace Examples
         {
             for(int i = 0; i < 16; i++)
             {
-                Led1 = ((i >> 0) & 1) == 1;
-                Led1 = ((i >> 1) & 1) == 1;
-                Led1 = ((i >> 2) & 1) == 1;
+                Led4 = ((i >> 0) & 1) == 1;
+                Led3 = ((i >> 1) & 1) == 1;
+                Led2 = ((i >> 2) & 1) == 1;
                 Led1 = ((i >> 3) & 1) == 1;
-                wait(0.25);
+                wait(0.01);
             }
         }
         else
         {
             for(int i = 15; i >= 0; i--)
             {            
-                Led1 = ((i >> 0) & 1) == 1;
-                Led1 = ((i >> 1) & 1) == 1;
-                Led1 = ((i >> 2) & 1) == 1;
+                Led4 = ((i >> 0) & 1) == 1;
+                Led3 = ((i >> 1) & 1) == 1;
+                Led2 = ((i >> 2) & 1) == 1;
                 Led1 = ((i >> 3) & 1) == 1;
-                wait(0.25);
+                wait(0.01);
             }
         }
 
@@ -87,13 +87,13 @@ namespace Examples
     {
         for(int i = 0; i < Times; i++)
         {
-            wait(0.25);
+            wait(0.01);
             Zeros();
-            wait(0.5);
+            wait(0.02);
             Ones();
-            wait(0.5);
+            wait(0.02);
             Zeros();
-            wait(0.25);
+            wait(0.01);
         }
     }
 

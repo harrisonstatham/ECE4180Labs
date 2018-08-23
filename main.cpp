@@ -27,7 +27,7 @@ int main() {
     TheCounter.Run(false);
 
 
-    
+    while(1) {}
 
     return 0;
 }
