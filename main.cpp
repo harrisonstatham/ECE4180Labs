@@ -15,8 +15,9 @@
 
 int main() {
 	
-    Lab1::BasicDigitalIO();
-
+    //Lab1::BasicDigitalIO();
+    
+    Lab1::BasicPWM();
 
     while(1) {}
 

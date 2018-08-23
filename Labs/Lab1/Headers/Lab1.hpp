@@ -11,6 +11,7 @@
 #include "mbed.h"
 
 #include "BasicDigitalIO.hpp"
+#include "BasicPWM.hpp"
 
 
 #endif

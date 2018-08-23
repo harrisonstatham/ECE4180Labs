@@ -140,10 +140,31 @@ protected:
     int         _samplesTillAssert;
     int         _samplesTillHeldReload;
     int         _samplesTillHeld;
+
+    
+    #if 0
+    
+    Callback<void()> _callbackAsserted;
+    Callback<void()> _callbackDeasserted;
+    Callback<void()> _callbackAssertedHeld;
+    Callback<void()> _callbackDeassertedHeld;
+
+    #else //MBED_MAJOR_VERSION  && MBED_MAJOR_VERSION >= 5
+    
+    // We can fall back to the old way of doing it if we are less than version 5.
+
+    // [Warning] PinDetect.hpp@171,17: 
+    // 'mbed::FunctionPointerArg1<R, void>::FunctionPointerArg1(R (*)()) [with R = void]' 
+    // is deprecated: FunctionPointer has been replaced by Callback<void()> [since mbed-os-5.1]
+
     FunctionPointer _callbackAsserted;
     FunctionPointer _callbackDeasserted;
     FunctionPointer _callbackAssertedHeld;
     FunctionPointer _callbackDeassertedHeld;
+
+    #endif
+
+    
     
     /** initialise class
      *
@@ -204,7 +225,8 @@ public:
      */
     void setSampleFrequency(int i = PINDETECT_SAMPLE_PERIOD) { 
         _sampleTime = i; 
-        _prevState  = _in->read();        
+        _prevState  = _in->read();   
+
         _ticker->attach_us( this, &PinDetect::isr, _sampleTime );
     }
     
@@ -260,7 +282,9 @@ public:
      * @param function A C function pointer
      */
     void attach_asserted(void (*function)(void)) {
+        
         _callbackAsserted.attach( function );
+
     }
     
     /** Attach a callback object/method 

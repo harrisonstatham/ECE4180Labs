@@ -123,4 +123,5 @@ BUILD/LPC1768/GCC_ARM/main.o: main.cpp \
  mbed-os/platform/CriticalSectionLock.h mbed-os/platform/DeepSleepLock.h \
  mbed-os/platform/mbed_stats.h mbed-os/platform/Callback.h \
  mbed-os/platform/FunctionPointer.h mbed-os/platform/ScopedLock.h \
- Labs/Lab1/Headers/Lab1.hpp Labs/Lab1/Headers/BasicDigitalIO.hpp
+ Labs/Lab1/Headers/Lab1.hpp Labs/Lab1/Headers/BasicDigitalIO.hpp \
+ Labs/Lab1/Headers/BasicPWM.hpp Common/PinDetect/PinDetect.hpp
