@@ -1,9 +1,11 @@
 //
 //  BasicDigitalIO.cpp
 //  ECE4180Projects
+//--------------------------------------------------------------------------
 //
-//  Created by Harrison on 8/21/18.
-//  Copyright © 2018 HarrisonStatham. All rights reserved.
+//
+//
+//
 //
 
 #include "Lab1/BasicDigitalIO.hpp"

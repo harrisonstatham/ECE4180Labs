@@ -1,15 +1,16 @@
+//--------------------------------------------------------------------------
 //
-//  BasicDigitalIO.hpp
-//  ECE4180Projects
 //
-//  Created by Harrison on 8/21/18.
+//
+//
 //
 
 #ifndef BasicDigitalIO_hpp
 #define BasicDigitalIO_hpp
 
-#include "mbed.h"
 #include "stdint.h"
+#include "mbed.h"
+
 
 namespace Lab1 {
 
