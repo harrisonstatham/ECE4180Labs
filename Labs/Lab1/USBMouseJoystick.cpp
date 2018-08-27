@@ -6,7 +6,7 @@
 // Kristina Beck
 //
 
-#include "USBJoystick.hpp"
+#include "USBMouseJoystick.hpp"
 
 namespace Lab1 
 {

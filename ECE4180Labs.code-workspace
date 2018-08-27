@@ -2,6 +2,21 @@
 	"folders": [
 		{
 			"path": "ECE4180Labs"
+		},
+		{
+			"path": "Common"
+		},
+		{
+			"path": "Labs"
+		},
+		{
+			"path": "Examples"
+		},
+		{
+			"path": "BUILD"
+		},
+		{
+			"path": "mbed-os"
 		}
 	],
 	"settings": {}

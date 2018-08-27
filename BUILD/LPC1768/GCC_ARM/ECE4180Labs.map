@@ -387,6 +387,54 @@ Discarded input sections
  .data          0x0000000000000000        0x0 /Applications/MBEDCLI.app/Contents/Resources/gcc/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/crt0.o
  .bss           0x0000000000000000        0x0 /Applications/MBEDCLI.app/Contents/Resources/gcc/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/crt0.o
  .ARM.extab     0x0000000000000000        0x0 /Applications/MBEDCLI.app/Contents/Resources/gcc/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/crt0.o
+ .text          0x0000000000000000        0x0 BUILD/LPC1768/GCC_ARM/Common/MCP23SA17/MCP23SA17.o
+ .data          0x0000000000000000        0x0 BUILD/LPC1768/GCC_ARM/Common/MCP23SA17/MCP23SA17.o
+ .bss           0x0000000000000000        0x0 BUILD/LPC1768/GCC_ARM/Common/MCP23SA17/MCP23SA17.o
+ .text.gpio_write
+                0x0000000000000000       0x2c BUILD/LPC1768/GCC_ARM/Common/MCP23SA17/MCP23SA17.o
+ .text._ZN6Common8MCP23S175_readEc
+                0x0000000000000000       0x3c BUILD/LPC1768/GCC_ARM/Common/MCP23SA17/MCP23SA17.o
+ .text._ZN6Common8MCP23S175_readENS_4PortEc
+                0x0000000000000000        0x8 BUILD/LPC1768/GCC_ARM/Common/MCP23SA17/MCP23SA17.o
+ .text._ZN6Common8MCP23S176_writeEcc
+                0x0000000000000000       0x3c BUILD/LPC1768/GCC_ARM/Common/MCP23SA17/MCP23SA17.o
+ .text._ZN6Common8MCP23S176_writeENS_4PortEcc
+                0x0000000000000000        0xa BUILD/LPC1768/GCC_ARM/Common/MCP23SA17/MCP23SA17.o
+ .text._ZN6Common8MCP23S175_initEv
+                0x0000000000000000        0x8 BUILD/LPC1768/GCC_ARM/Common/MCP23SA17/MCP23SA17.o
+ .text._ZN6Common8MCP23S17C2ERN4mbed3SPIE7PinNamec
+                0x0000000000000000       0x32 BUILD/LPC1768/GCC_ARM/Common/MCP23SA17/MCP23SA17.o
+ .text._ZN6Common8MCP23S179directionENS_4PortEc
+                0x0000000000000000        0x4 BUILD/LPC1768/GCC_ARM/Common/MCP23SA17/MCP23SA17.o
+ .text._ZN6Common8MCP23S1716configurePullUpsENS_4PortEc
+                0x0000000000000000        0x8 BUILD/LPC1768/GCC_ARM/Common/MCP23SA17/MCP23SA17.o
+ .text._ZN6Common8MCP23S1715interruptEnableENS_4PortEc
+                0x0000000000000000        0x8 BUILD/LPC1768/GCC_ARM/Common/MCP23SA17/MCP23SA17.o
+ .text._ZN6Common8MCP23S1716mirrorInterruptsEb
+                0x0000000000000000       0x26 BUILD/LPC1768/GCC_ARM/Common/MCP23SA17/MCP23SA17.o
+ .text._ZN6Common8MCP23S1717interruptPolarityENS_8PolarityE
+                0x0000000000000000       0x26 BUILD/LPC1768/GCC_ARM/Common/MCP23SA17/MCP23SA17.o
+ .text._ZN6Common8MCP23S1712defaultValueENS_4PortEc
+                0x0000000000000000        0x8 BUILD/LPC1768/GCC_ARM/Common/MCP23SA17/MCP23SA17.o
+ .text._ZN6Common8MCP23S1716interruptControlENS_4PortEc
+                0x0000000000000000        0x8 BUILD/LPC1768/GCC_ARM/Common/MCP23SA17/MCP23SA17.o
+ .text._ZN6Common8MCP23S175writeENS_4PortEc
+                0x0000000000000000        0x8 BUILD/LPC1768/GCC_ARM/Common/MCP23SA17/MCP23SA17.o
+ .text._ZN6Common8MCP23S174readENS_4PortE
+                0x0000000000000000        0x8 BUILD/LPC1768/GCC_ARM/Common/MCP23SA17/MCP23SA17.o
+ .rodata.gpio_write.str1.1
+                0x0000000000000000       0x52 BUILD/LPC1768/GCC_ARM/Common/MCP23SA17/MCP23SA17.o
+ .debug_info    0x0000000000000000      0x2f0 BUILD/LPC1768/GCC_ARM/Common/MCP23SA17/MCP23SA17.o
+ .debug_abbrev  0x0000000000000000      0x13d BUILD/LPC1768/GCC_ARM/Common/MCP23SA17/MCP23SA17.o
+ .debug_aranges
+                0x0000000000000000       0x98 BUILD/LPC1768/GCC_ARM/Common/MCP23SA17/MCP23SA17.o
+ .debug_ranges  0x0000000000000000       0xa0 BUILD/LPC1768/GCC_ARM/Common/MCP23SA17/MCP23SA17.o
+ .debug_line    0x0000000000000000      0x232 BUILD/LPC1768/GCC_ARM/Common/MCP23SA17/MCP23SA17.o
+ .debug_str     0x0000000000000000      0x527 BUILD/LPC1768/GCC_ARM/Common/MCP23SA17/MCP23SA17.o
+ .comment       0x0000000000000000       0x80 BUILD/LPC1768/GCC_ARM/Common/MCP23SA17/MCP23SA17.o
+ .debug_frame   0x0000000000000000      0x180 BUILD/LPC1768/GCC_ARM/Common/MCP23SA17/MCP23SA17.o
+ .ARM.attributes
+                0x0000000000000000       0x33 BUILD/LPC1768/GCC_ARM/Common/MCP23SA17/MCP23SA17.o
  .group         0x0000000000000000        0x8 BUILD/LPC1768/GCC_ARM/Common/USBDevice/USBAudio/USBAudio.o
  .group         0x0000000000000000        0x8 BUILD/LPC1768/GCC_ARM/Common/USBDevice/USBAudio/USBAudio.o
  .group         0x0000000000000000        0x8 BUILD/LPC1768/GCC_ARM/Common/USBDevice/USBAudio/USBAudio.o
@@ -2305,6 +2353,22 @@ Discarded input sections
  .debug_frame   0x0000000000000000       0xec BUILD/LPC1768/GCC_ARM/Examples/LEDBinaryCounter.o
  .ARM.attributes
                 0x0000000000000000       0x33 BUILD/LPC1768/GCC_ARM/Examples/LEDBinaryCounter.o
+ .text          0x0000000000000000        0x0 BUILD/LPC1768/GCC_ARM/Labs/Lab1/BasicAnalogIn.o
+ .data          0x0000000000000000        0x0 BUILD/LPC1768/GCC_ARM/Labs/Lab1/BasicAnalogIn.o
+ .bss           0x0000000000000000        0x0 BUILD/LPC1768/GCC_ARM/Labs/Lab1/BasicAnalogIn.o
+ .debug_line    0x0000000000000000        0x0 BUILD/LPC1768/GCC_ARM/Labs/Lab1/BasicAnalogIn.o
+ .debug_str     0x0000000000000000      0x174 BUILD/LPC1768/GCC_ARM/Labs/Lab1/BasicAnalogIn.o
+ .comment       0x0000000000000000       0x80 BUILD/LPC1768/GCC_ARM/Labs/Lab1/BasicAnalogIn.o
+ .ARM.attributes
+                0x0000000000000000       0x33 BUILD/LPC1768/GCC_ARM/Labs/Lab1/BasicAnalogIn.o
+ .text          0x0000000000000000        0x0 BUILD/LPC1768/GCC_ARM/Labs/Lab1/BasicAnalogOut.o
+ .data          0x0000000000000000        0x0 BUILD/LPC1768/GCC_ARM/Labs/Lab1/BasicAnalogOut.o
+ .bss           0x0000000000000000        0x0 BUILD/LPC1768/GCC_ARM/Labs/Lab1/BasicAnalogOut.o
+ .debug_line    0x0000000000000000        0x0 BUILD/LPC1768/GCC_ARM/Labs/Lab1/BasicAnalogOut.o
+ .debug_str     0x0000000000000000      0x175 BUILD/LPC1768/GCC_ARM/Labs/Lab1/BasicAnalogOut.o
+ .comment       0x0000000000000000       0x80 BUILD/LPC1768/GCC_ARM/Labs/Lab1/BasicAnalogOut.o
+ .ARM.attributes
+                0x0000000000000000       0x33 BUILD/LPC1768/GCC_ARM/Labs/Lab1/BasicAnalogOut.o
  .text          0x0000000000000000        0x0 BUILD/LPC1768/GCC_ARM/Labs/Lab1/BasicDigitalIO.o
  .data          0x0000000000000000        0x0 BUILD/LPC1768/GCC_ARM/Labs/Lab1/BasicDigitalIO.o
  .bss           0x0000000000000000        0x0 BUILD/LPC1768/GCC_ARM/Labs/Lab1/BasicDigitalIO.o
@@ -2323,6 +2387,14 @@ Discarded input sections
  .debug_frame   0x0000000000000000       0x28 BUILD/LPC1768/GCC_ARM/Labs/Lab1/BasicDigitalIO.o
  .ARM.attributes
                 0x0000000000000000       0x33 BUILD/LPC1768/GCC_ARM/Labs/Lab1/BasicDigitalIO.o
+ .text          0x0000000000000000        0x0 BUILD/LPC1768/GCC_ARM/Labs/Lab1/BasicI2CTouchSwitch.o
+ .data          0x0000000000000000        0x0 BUILD/LPC1768/GCC_ARM/Labs/Lab1/BasicI2CTouchSwitch.o
+ .bss           0x0000000000000000        0x0 BUILD/LPC1768/GCC_ARM/Labs/Lab1/BasicI2CTouchSwitch.o
+ .debug_line    0x0000000000000000        0x0 BUILD/LPC1768/GCC_ARM/Labs/Lab1/BasicI2CTouchSwitch.o
+ .debug_str     0x0000000000000000      0x17a BUILD/LPC1768/GCC_ARM/Labs/Lab1/BasicI2CTouchSwitch.o
+ .comment       0x0000000000000000       0x80 BUILD/LPC1768/GCC_ARM/Labs/Lab1/BasicI2CTouchSwitch.o
+ .ARM.attributes
+                0x0000000000000000       0x33 BUILD/LPC1768/GCC_ARM/Labs/Lab1/BasicI2CTouchSwitch.o
  .text          0x0000000000000000        0x0 BUILD/LPC1768/GCC_ARM/Labs/Lab1/BasicJoystick.o
  .data          0x0000000000000000        0x0 BUILD/LPC1768/GCC_ARM/Labs/Lab1/BasicJoystick.o
  .bss           0x0000000000000000        0x0 BUILD/LPC1768/GCC_ARM/Labs/Lab1/BasicJoystick.o
@@ -2423,22 +2495,42 @@ Discarded input sections
  .debug_frame   0x0000000000000000      0x17c BUILD/LPC1768/GCC_ARM/Labs/Lab1/PwmRgbLed.o
  .ARM.attributes
                 0x0000000000000000       0x33 BUILD/LPC1768/GCC_ARM/Labs/Lab1/PwmRgbLed.o
- .text          0x0000000000000000        0x0 BUILD/LPC1768/GCC_ARM/Labs/Lab1/USBJoystick.o
- .data          0x0000000000000000        0x0 BUILD/LPC1768/GCC_ARM/Labs/Lab1/USBJoystick.o
- .bss           0x0000000000000000        0x0 BUILD/LPC1768/GCC_ARM/Labs/Lab1/USBJoystick.o
- .text._ZN4Lab111USBJoystickEv
-                0x0000000000000000       0xe8 BUILD/LPC1768/GCC_ARM/Labs/Lab1/USBJoystick.o
- .debug_info    0x0000000000000000      0x34a BUILD/LPC1768/GCC_ARM/Labs/Lab1/USBJoystick.o
- .debug_abbrev  0x0000000000000000       0xb4 BUILD/LPC1768/GCC_ARM/Labs/Lab1/USBJoystick.o
+ .text          0x0000000000000000        0x0 BUILD/LPC1768/GCC_ARM/Labs/Lab1/SPIDigitalExpander.o
+ .data          0x0000000000000000        0x0 BUILD/LPC1768/GCC_ARM/Labs/Lab1/SPIDigitalExpander.o
+ .bss           0x0000000000000000        0x0 BUILD/LPC1768/GCC_ARM/Labs/Lab1/SPIDigitalExpander.o
+ .text.gpio_write
+                0x0000000000000000       0x2c BUILD/LPC1768/GCC_ARM/Labs/Lab1/SPIDigitalExpander.o
+ .text._ZN4Lab118SPIDigitalExpanderEv
+                0x0000000000000000       0xb0 BUILD/LPC1768/GCC_ARM/Labs/Lab1/SPIDigitalExpander.o
+ .rodata.gpio_write.str1.1
+                0x0000000000000000       0x52 BUILD/LPC1768/GCC_ARM/Labs/Lab1/SPIDigitalExpander.o
+ .debug_info    0x0000000000000000       0xf2 BUILD/LPC1768/GCC_ARM/Labs/Lab1/SPIDigitalExpander.o
+ .debug_abbrev  0x0000000000000000       0x8b BUILD/LPC1768/GCC_ARM/Labs/Lab1/SPIDigitalExpander.o
  .debug_aranges
-                0x0000000000000000       0x20 BUILD/LPC1768/GCC_ARM/Labs/Lab1/USBJoystick.o
- .debug_ranges  0x0000000000000000       0x70 BUILD/LPC1768/GCC_ARM/Labs/Lab1/USBJoystick.o
- .debug_line    0x0000000000000000      0x14a BUILD/LPC1768/GCC_ARM/Labs/Lab1/USBJoystick.o
- .debug_str     0x0000000000000000      0x9db BUILD/LPC1768/GCC_ARM/Labs/Lab1/USBJoystick.o
- .comment       0x0000000000000000       0x80 BUILD/LPC1768/GCC_ARM/Labs/Lab1/USBJoystick.o
- .debug_frame   0x0000000000000000       0x34 BUILD/LPC1768/GCC_ARM/Labs/Lab1/USBJoystick.o
+                0x0000000000000000       0x28 BUILD/LPC1768/GCC_ARM/Labs/Lab1/SPIDigitalExpander.o
+ .debug_ranges  0x0000000000000000       0x18 BUILD/LPC1768/GCC_ARM/Labs/Lab1/SPIDigitalExpander.o
+ .debug_line    0x0000000000000000      0x120 BUILD/LPC1768/GCC_ARM/Labs/Lab1/SPIDigitalExpander.o
+ .debug_str     0x0000000000000000      0x247 BUILD/LPC1768/GCC_ARM/Labs/Lab1/SPIDigitalExpander.o
+ .comment       0x0000000000000000       0x80 BUILD/LPC1768/GCC_ARM/Labs/Lab1/SPIDigitalExpander.o
+ .debug_frame   0x0000000000000000       0x48 BUILD/LPC1768/GCC_ARM/Labs/Lab1/SPIDigitalExpander.o
  .ARM.attributes
-                0x0000000000000000       0x33 BUILD/LPC1768/GCC_ARM/Labs/Lab1/USBJoystick.o
+                0x0000000000000000       0x33 BUILD/LPC1768/GCC_ARM/Labs/Lab1/SPIDigitalExpander.o
+ .text          0x0000000000000000        0x0 BUILD/LPC1768/GCC_ARM/Labs/Lab1/USBMouseJoystick.o
+ .data          0x0000000000000000        0x0 BUILD/LPC1768/GCC_ARM/Labs/Lab1/USBMouseJoystick.o
+ .bss           0x0000000000000000        0x0 BUILD/LPC1768/GCC_ARM/Labs/Lab1/USBMouseJoystick.o
+ .text._ZN4Lab111USBJoystickEv
+                0x0000000000000000       0xe8 BUILD/LPC1768/GCC_ARM/Labs/Lab1/USBMouseJoystick.o
+ .debug_info    0x0000000000000000      0x34a BUILD/LPC1768/GCC_ARM/Labs/Lab1/USBMouseJoystick.o
+ .debug_abbrev  0x0000000000000000       0xb4 BUILD/LPC1768/GCC_ARM/Labs/Lab1/USBMouseJoystick.o
+ .debug_aranges
+                0x0000000000000000       0x20 BUILD/LPC1768/GCC_ARM/Labs/Lab1/USBMouseJoystick.o
+ .debug_ranges  0x0000000000000000       0x70 BUILD/LPC1768/GCC_ARM/Labs/Lab1/USBMouseJoystick.o
+ .debug_line    0x0000000000000000      0x14f BUILD/LPC1768/GCC_ARM/Labs/Lab1/USBMouseJoystick.o
+ .debug_str     0x0000000000000000      0x9e0 BUILD/LPC1768/GCC_ARM/Labs/Lab1/USBMouseJoystick.o
+ .comment       0x0000000000000000       0x80 BUILD/LPC1768/GCC_ARM/Labs/Lab1/USBMouseJoystick.o
+ .debug_frame   0x0000000000000000       0x34 BUILD/LPC1768/GCC_ARM/Labs/Lab1/USBMouseJoystick.o
+ .ARM.attributes
+                0x0000000000000000       0x33 BUILD/LPC1768/GCC_ARM/Labs/Lab1/USBMouseJoystick.o
  .text          0x0000000000000000        0x0 BUILD/LPC1768/GCC_ARM/Labs/Lab2/Lab2.o
  .data          0x0000000000000000        0x0 BUILD/LPC1768/GCC_ARM/Labs/Lab2/Lab2.o
  .bss           0x0000000000000000        0x0 BUILD/LPC1768/GCC_ARM/Labs/Lab2/Lab2.o
@@ -28997,6 +29089,7 @@ Linker script and memory map
 LOAD /Applications/MBEDCLI.app/Contents/Resources/gcc/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/crti.o
 LOAD /Applications/MBEDCLI.app/Contents/Resources/gcc/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/crtbegin.o
 LOAD /Applications/MBEDCLI.app/Contents/Resources/gcc/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/crt0.o
+LOAD BUILD/LPC1768/GCC_ARM/Common/MCP23SA17/MCP23SA17.o
 LOAD BUILD/LPC1768/GCC_ARM/Common/USBDevice/USBAudio/USBAudio.o
 LOAD BUILD/LPC1768/GCC_ARM/Common/USBDevice/USBDevice/USBDevice.o
 LOAD BUILD/LPC1768/GCC_ARM/Common/USBDevice/USBHID/USBHID.o
@@ -29011,11 +29104,15 @@ LOAD BUILD/LPC1768/GCC_ARM/Common/USBDevice/targets/TARGET_NXP/USBHAL_LPC11U.o
 LOAD BUILD/LPC1768/GCC_ARM/Common/USBDevice/targets/TARGET_NXP/USBHAL_LPC17.o
 LOAD BUILD/LPC1768/GCC_ARM/Common/USBDevice/targets/TARGET_NXP/USBHAL_LPC40.o
 LOAD BUILD/LPC1768/GCC_ARM/Examples/LEDBinaryCounter.o
+LOAD BUILD/LPC1768/GCC_ARM/Labs/Lab1/BasicAnalogIn.o
+LOAD BUILD/LPC1768/GCC_ARM/Labs/Lab1/BasicAnalogOut.o
 LOAD BUILD/LPC1768/GCC_ARM/Labs/Lab1/BasicDigitalIO.o
+LOAD BUILD/LPC1768/GCC_ARM/Labs/Lab1/BasicI2CTouchSwitch.o
 LOAD BUILD/LPC1768/GCC_ARM/Labs/Lab1/BasicJoystick.o
 LOAD BUILD/LPC1768/GCC_ARM/Labs/Lab1/BasicPWM.o
 LOAD BUILD/LPC1768/GCC_ARM/Labs/Lab1/PwmRgbLed.o
-LOAD BUILD/LPC1768/GCC_ARM/Labs/Lab1/USBJoystick.o
+LOAD BUILD/LPC1768/GCC_ARM/Labs/Lab1/SPIDigitalExpander.o
+LOAD BUILD/LPC1768/GCC_ARM/Labs/Lab1/USBMouseJoystick.o
 LOAD BUILD/LPC1768/GCC_ARM/Labs/Lab2/Lab2.o
 LOAD BUILD/LPC1768/GCC_ARM/main.o
 LOAD BUILD/LPC1768/GCC_ARM/mbed-os/cmsis/TARGET_CORTEX_M/mbed_tz_context.o

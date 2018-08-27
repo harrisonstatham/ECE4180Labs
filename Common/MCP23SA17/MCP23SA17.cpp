@@ -6,7 +6,7 @@
 */
  
 #include "mbed.h"
-#include "MCP23S17.h"
+#include "MCP23SA17.hpp"
 
 namespace Common
 {

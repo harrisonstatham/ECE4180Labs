@@ -27,7 +27,7 @@ namespace Lab1
  
         // Next create a MCP23S17
         // mbed p20 is connected to ~chipSelect on the MCP23S17
-        MCP23S17 chip = MCP23S17(spi, p20, Opcode);
+        Common::MCP23S17 chip = Common::MCP23S17(spi, p20, Opcode);
         
         // Optional software reset - mbed p14 to MCP23S17 reset pin
         // DigitalOut reset(p14);
@@ -46,24 +46,24 @@ namespace Lab1
         //  reset = 1;
         //
         //  Set all 8 Port A bits to output direction
-            chip.direction(PORT_A, 0x00);
+            chip.direction(Common::PORT_A, 0x00);
         //  Set all 8 Port B bits to input direction
-            chip.direction(PORT_B, 0xFF);
+            chip.direction(Common::PORT_B, 0xFF);
             led1=0;
             
         //  Start Loopback test sending out and reading back values
         //  loopback test uses A0 and B0 pins - so use a wire to jumper those two pins on MCP23S17 together
         while (1) {
             // write 0xAA to MCP23S17 Port A
-            chip.write(PORT_A, 0xAA);
+            chip.write(Common::PORT_A, 0xAA);
             wait(.5);
             // read back value from MCP23S17 Port B and display B0 on mbed led1
-            led1 = chip.read(PORT_B)& 0x01;
+            led1 = chip.read(Common::PORT_B)& 0x01;
             // write 0x55 to MCP23S17 Port A
-            chip.write(PORT_A, 0x55);
+            chip.write(Common::PORT_A, 0x55);
             wait(.5);
             // read back value from MCP23S17 Port B and display B0 on mbed led1
-            led1 = chip.read(PORT_B)& 0x01;
+            led1 = chip.read(Common::PORT_B)& 0x01;
             // led1 should blink slowly when it is all working
         }
 
