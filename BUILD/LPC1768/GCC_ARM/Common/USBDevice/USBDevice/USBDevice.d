@@ -1,9 +1,9 @@
-BUILD/LPC1768/GCC_ARM/Common/USBDevice/USBDevice/USBDevice.o: \
- Common/USBDevice/USBDevice/USBDevice.cpp \
- BUILD/LPC1768/GCC_ARM/mbed_config.h \
- Common/USBDevice/USBDevice/USBEndpoints.h \
+BUILD\LPC1768\GCC_ARM\Common\USBDevice\USBDevice\USBDevice.o: \
+ Common\USBDevice\USBDevice\USBDevice.cpp \
+ BUILD\LPC1768\GCC_ARM\mbed_config.h \
+ Common\USBDevice\USBDevice\USBEndpoints.h \
  Common/USBDevice/targets/TARGET_NXP/USBEndpoints_LPC17_LPC23.h \
- Common/USBDevice/USBDevice/USBDevice.h mbed-os/mbed.h \
+ Common\USBDevice\USBDevice\USBDevice.h mbed-os/mbed.h \
  mbed-os/platform/mbed_version.h mbed-os/rtos/rtos.h \
  mbed-os/rtos/TARGET_CORTEX/mbed_rtos_storage.h \
  mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_lib.h \
@@ -127,6 +127,6 @@ BUILD/LPC1768/GCC_ARM/Common/USBDevice/USBDevice/USBDevice.o: \
  mbed-os/platform/CriticalSectionLock.h mbed-os/platform/DeepSleepLock.h \
  mbed-os/platform/mbed_stats.h mbed-os/platform/Callback.h \
  mbed-os/platform/FunctionPointer.h mbed-os/platform/ScopedLock.h \
- Common/USBDevice/USBDevice/USBDevice_Types.h \
- Common/USBDevice/USBDevice/USBHAL.h \
- Common/USBDevice/USBDevice/USBDescriptor.h
+ Common\USBDevice\USBDevice\USBDevice_Types.h \
+ Common\USBDevice\USBDevice\USBHAL.h \
+ Common\USBDevice\USBDevice\USBDescriptor.h

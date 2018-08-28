@@ -1,5 +1,5 @@
-BUILD/LPC1768/GCC_ARM/Labs/Lab1/BasicPWM.o: Labs/Lab1/BasicPWM.cpp \
- BUILD/LPC1768/GCC_ARM/mbed_config.h Labs/Lab1/Headers/BasicPWM.hpp \
+BUILD\LPC1768\GCC_ARM\Labs\Lab1\BasicPWM.o: Labs\Lab1\BasicPWM.cpp \
+ BUILD\LPC1768\GCC_ARM\mbed_config.h Labs/Lab1/Headers/BasicPWM.hpp \
  mbed-os/mbed.h mbed-os/platform/mbed_version.h mbed-os/rtos/rtos.h \
  mbed-os/rtos/TARGET_CORTEX/mbed_rtos_storage.h \
  mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_lib.h \

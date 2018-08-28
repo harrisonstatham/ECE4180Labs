@@ -1,3 +1,3 @@
-BUILD/LPC1768/GCC_ARM/Common/USBDevice/targets/TARGET_NXP/USBHAL_LPC40.o: \
- Common/USBDevice/targets/TARGET_NXP/USBHAL_LPC40.cpp \
- BUILD/LPC1768/GCC_ARM/mbed_config.h
+BUILD\LPC1768\GCC_ARM\Common\USBDevice\targets\TARGET_NXP\USBHAL_LPC40.o: \
+ Common\USBDevice\targets\TARGET_NXP\USBHAL_LPC40.cpp \
+ BUILD\LPC1768\GCC_ARM\mbed_config.h
