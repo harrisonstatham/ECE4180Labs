@@ -381,6 +381,7 @@ protocol_core_multicast_upstream
 
 Discarded input sections
 
+<<<<<<< HEAD
  .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/crti.o
  .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/crti.o
  .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/crti.o
@@ -421,6 +422,96 @@ Discarded input sections
  .text          0x00000000        0x0 BUILD/LPC1768/GCC_ARM/Common/USBDevice/USBAudio/USBAudio.o
  .data          0x00000000        0x0 BUILD/LPC1768/GCC_ARM/Common/USBDevice/USBAudio/USBAudio.o
  .bss           0x00000000        0x0 BUILD/LPC1768/GCC_ARM/Common/USBDevice/USBAudio/USBAudio.o
+=======
+ .text          0x0000000000000000        0x0 /Applications/MBEDCLI.app/Contents/Resources/gcc/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/crti.o
+ .data          0x0000000000000000        0x0 /Applications/MBEDCLI.app/Contents/Resources/gcc/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/crti.o
+ .bss           0x0000000000000000        0x0 /Applications/MBEDCLI.app/Contents/Resources/gcc/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/crti.o
+ .data          0x0000000000000000        0x0 /Applications/MBEDCLI.app/Contents/Resources/gcc/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/crt0.o
+ .bss           0x0000000000000000        0x0 /Applications/MBEDCLI.app/Contents/Resources/gcc/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/crt0.o
+ .ARM.extab     0x0000000000000000        0x0 /Applications/MBEDCLI.app/Contents/Resources/gcc/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/crt0.o
+ .text          0x0000000000000000        0x0 BUILD/LPC1768/GCC_ARM/Common/MCP23SA17/MCP23SA17.o
+ .data          0x0000000000000000        0x0 BUILD/LPC1768/GCC_ARM/Common/MCP23SA17/MCP23SA17.o
+ .bss           0x0000000000000000        0x0 BUILD/LPC1768/GCC_ARM/Common/MCP23SA17/MCP23SA17.o
+ .text.gpio_write
+                0x0000000000000000       0x2c BUILD/LPC1768/GCC_ARM/Common/MCP23SA17/MCP23SA17.o
+ .text._ZN6Common8MCP23S175_readEc
+                0x0000000000000000       0x3c BUILD/LPC1768/GCC_ARM/Common/MCP23SA17/MCP23SA17.o
+ .text._ZN6Common8MCP23S175_readENS_4PortEc
+                0x0000000000000000        0x8 BUILD/LPC1768/GCC_ARM/Common/MCP23SA17/MCP23SA17.o
+ .text._ZN6Common8MCP23S176_writeEcc
+                0x0000000000000000       0x3c BUILD/LPC1768/GCC_ARM/Common/MCP23SA17/MCP23SA17.o
+ .text._ZN6Common8MCP23S176_writeENS_4PortEcc
+                0x0000000000000000        0xa BUILD/LPC1768/GCC_ARM/Common/MCP23SA17/MCP23SA17.o
+ .text._ZN6Common8MCP23S175_initEv
+                0x0000000000000000        0x8 BUILD/LPC1768/GCC_ARM/Common/MCP23SA17/MCP23SA17.o
+ .text._ZN6Common8MCP23S17C2ERN4mbed3SPIE7PinNamec
+                0x0000000000000000       0x32 BUILD/LPC1768/GCC_ARM/Common/MCP23SA17/MCP23SA17.o
+ .text._ZN6Common8MCP23S179directionENS_4PortEc
+                0x0000000000000000        0x4 BUILD/LPC1768/GCC_ARM/Common/MCP23SA17/MCP23SA17.o
+ .text._ZN6Common8MCP23S1716configurePullUpsENS_4PortEc
+                0x0000000000000000        0x8 BUILD/LPC1768/GCC_ARM/Common/MCP23SA17/MCP23SA17.o
+ .text._ZN6Common8MCP23S1715interruptEnableENS_4PortEc
+                0x0000000000000000        0x8 BUILD/LPC1768/GCC_ARM/Common/MCP23SA17/MCP23SA17.o
+ .text._ZN6Common8MCP23S1716mirrorInterruptsEb
+                0x0000000000000000       0x26 BUILD/LPC1768/GCC_ARM/Common/MCP23SA17/MCP23SA17.o
+ .text._ZN6Common8MCP23S1717interruptPolarityENS_8PolarityE
+                0x0000000000000000       0x26 BUILD/LPC1768/GCC_ARM/Common/MCP23SA17/MCP23SA17.o
+ .text._ZN6Common8MCP23S1712defaultValueENS_4PortEc
+                0x0000000000000000        0x8 BUILD/LPC1768/GCC_ARM/Common/MCP23SA17/MCP23SA17.o
+ .text._ZN6Common8MCP23S1716interruptControlENS_4PortEc
+                0x0000000000000000        0x8 BUILD/LPC1768/GCC_ARM/Common/MCP23SA17/MCP23SA17.o
+ .text._ZN6Common8MCP23S175writeENS_4PortEc
+                0x0000000000000000        0x8 BUILD/LPC1768/GCC_ARM/Common/MCP23SA17/MCP23SA17.o
+ .text._ZN6Common8MCP23S174readENS_4PortE
+                0x0000000000000000        0x8 BUILD/LPC1768/GCC_ARM/Common/MCP23SA17/MCP23SA17.o
+ .rodata.gpio_write.str1.1
+                0x0000000000000000       0x52 BUILD/LPC1768/GCC_ARM/Common/MCP23SA17/MCP23SA17.o
+ .debug_info    0x0000000000000000      0x2f0 BUILD/LPC1768/GCC_ARM/Common/MCP23SA17/MCP23SA17.o
+ .debug_abbrev  0x0000000000000000      0x13d BUILD/LPC1768/GCC_ARM/Common/MCP23SA17/MCP23SA17.o
+ .debug_aranges
+                0x0000000000000000       0x98 BUILD/LPC1768/GCC_ARM/Common/MCP23SA17/MCP23SA17.o
+ .debug_ranges  0x0000000000000000       0xa0 BUILD/LPC1768/GCC_ARM/Common/MCP23SA17/MCP23SA17.o
+ .debug_line    0x0000000000000000      0x232 BUILD/LPC1768/GCC_ARM/Common/MCP23SA17/MCP23SA17.o
+ .debug_str     0x0000000000000000      0x527 BUILD/LPC1768/GCC_ARM/Common/MCP23SA17/MCP23SA17.o
+ .comment       0x0000000000000000       0x80 BUILD/LPC1768/GCC_ARM/Common/MCP23SA17/MCP23SA17.o
+ .debug_frame   0x0000000000000000      0x180 BUILD/LPC1768/GCC_ARM/Common/MCP23SA17/MCP23SA17.o
+ .ARM.attributes
+                0x0000000000000000       0x33 BUILD/LPC1768/GCC_ARM/Common/MCP23SA17/MCP23SA17.o
+ .group         0x0000000000000000        0x8 BUILD/LPC1768/GCC_ARM/Common/USBDevice/USBAudio/USBAudio.o
+ .group         0x0000000000000000        0x8 BUILD/LPC1768/GCC_ARM/Common/USBDevice/USBAudio/USBAudio.o
+ .group         0x0000000000000000        0x8 BUILD/LPC1768/GCC_ARM/Common/USBDevice/USBAudio/USBAudio.o
+ .group         0x0000000000000000        0x8 BUILD/LPC1768/GCC_ARM/Common/USBDevice/USBAudio/USBAudio.o
+ .group         0x0000000000000000        0x8 BUILD/LPC1768/GCC_ARM/Common/USBDevice/USBAudio/USBAudio.o
+ .group         0x0000000000000000        0x8 BUILD/LPC1768/GCC_ARM/Common/USBDevice/USBAudio/USBAudio.o
+ .group         0x0000000000000000        0x8 BUILD/LPC1768/GCC_ARM/Common/USBDevice/USBAudio/USBAudio.o
+ .group         0x0000000000000000        0x8 BUILD/LPC1768/GCC_ARM/Common/USBDevice/USBAudio/USBAudio.o
+ .group         0x0000000000000000        0x8 BUILD/LPC1768/GCC_ARM/Common/USBDevice/USBAudio/USBAudio.o
+ .group         0x0000000000000000        0x8 BUILD/LPC1768/GCC_ARM/Common/USBDevice/USBAudio/USBAudio.o
+ .group         0x0000000000000000        0x8 BUILD/LPC1768/GCC_ARM/Common/USBDevice/USBAudio/USBAudio.o
+ .group         0x0000000000000000        0x8 BUILD/LPC1768/GCC_ARM/Common/USBDevice/USBAudio/USBAudio.o
+ .group         0x0000000000000000        0x8 BUILD/LPC1768/GCC_ARM/Common/USBDevice/USBAudio/USBAudio.o
+ .group         0x0000000000000000        0x8 BUILD/LPC1768/GCC_ARM/Common/USBDevice/USBAudio/USBAudio.o
+ .group         0x0000000000000000        0x8 BUILD/LPC1768/GCC_ARM/Common/USBDevice/USBAudio/USBAudio.o
+ .group         0x0000000000000000        0x8 BUILD/LPC1768/GCC_ARM/Common/USBDevice/USBAudio/USBAudio.o
+ .group         0x0000000000000000        0x8 BUILD/LPC1768/GCC_ARM/Common/USBDevice/USBAudio/USBAudio.o
+ .group         0x0000000000000000        0x8 BUILD/LPC1768/GCC_ARM/Common/USBDevice/USBAudio/USBAudio.o
+ .group         0x0000000000000000        0x8 BUILD/LPC1768/GCC_ARM/Common/USBDevice/USBAudio/USBAudio.o
+ .group         0x0000000000000000        0x8 BUILD/LPC1768/GCC_ARM/Common/USBDevice/USBAudio/USBAudio.o
+ .group         0x0000000000000000        0x8 BUILD/LPC1768/GCC_ARM/Common/USBDevice/USBAudio/USBAudio.o
+ .group         0x0000000000000000        0x8 BUILD/LPC1768/GCC_ARM/Common/USBDevice/USBAudio/USBAudio.o
+ .group         0x0000000000000000        0x8 BUILD/LPC1768/GCC_ARM/Common/USBDevice/USBAudio/USBAudio.o
+ .group         0x0000000000000000        0x8 BUILD/LPC1768/GCC_ARM/Common/USBDevice/USBAudio/USBAudio.o
+ .group         0x0000000000000000        0x8 BUILD/LPC1768/GCC_ARM/Common/USBDevice/USBAudio/USBAudio.o
+ .group         0x0000000000000000        0x8 BUILD/LPC1768/GCC_ARM/Common/USBDevice/USBAudio/USBAudio.o
+ .group         0x0000000000000000        0x8 BUILD/LPC1768/GCC_ARM/Common/USBDevice/USBAudio/USBAudio.o
+ .group         0x0000000000000000        0x8 BUILD/LPC1768/GCC_ARM/Common/USBDevice/USBAudio/USBAudio.o
+ .group         0x0000000000000000        0x8 BUILD/LPC1768/GCC_ARM/Common/USBDevice/USBAudio/USBAudio.o
+ .group         0x0000000000000000        0x8 BUILD/LPC1768/GCC_ARM/Common/USBDevice/USBAudio/USBAudio.o
+ .group         0x0000000000000000        0x8 BUILD/LPC1768/GCC_ARM/Common/USBDevice/USBAudio/USBAudio.o
+ .text          0x0000000000000000        0x0 BUILD/LPC1768/GCC_ARM/Common/USBDevice/USBAudio/USBAudio.o
+ .data          0x0000000000000000        0x0 BUILD/LPC1768/GCC_ARM/Common/USBDevice/USBAudio/USBAudio.o
+ .bss           0x0000000000000000        0x0 BUILD/LPC1768/GCC_ARM/Common/USBDevice/USBAudio/USBAudio.o
+>>>>>>> 6e1a3f7377a528c88b612460fafdf9708d2a5899
  .text._ZN6USBHAL16EP1_OUT_callbackEv
                 0x00000000        0x4 BUILD/LPC1768/GCC_ARM/Common/USBDevice/USBAudio/USBAudio.o
  .text._ZN6USBHAL15EP1_IN_callbackEv
@@ -2293,6 +2384,7 @@ Discarded input sections
  .text._ZN8Examples16LEDBinaryCounter3RunEb
                 0x00000000       0xa4 BUILD/LPC1768/GCC_ARM/Examples/LEDBinaryCounter.o
  .rodata.gpio_write.str1.1
+<<<<<<< HEAD
                 0x00000000       0x52 BUILD/LPC1768/GCC_ARM/Examples/LEDBinaryCounter.o
  .debug_info    0x00000000      0x316 BUILD/LPC1768/GCC_ARM/Examples/LEDBinaryCounter.o
  .debug_abbrev  0x00000000       0xe0 BUILD/LPC1768/GCC_ARM/Examples/LEDBinaryCounter.o
@@ -2324,9 +2416,43 @@ Discarded input sections
  .text          0x00000000        0x0 BUILD/LPC1768/GCC_ARM/Labs/Lab1/BasicDigitalIO.o
  .data          0x00000000        0x0 BUILD/LPC1768/GCC_ARM/Labs/Lab1/BasicDigitalIO.o
  .bss           0x00000000        0x0 BUILD/LPC1768/GCC_ARM/Labs/Lab1/BasicDigitalIO.o
+=======
+                0x0000000000000000       0x52 BUILD/LPC1768/GCC_ARM/Examples/LEDBinaryCounter.o
+ .debug_info    0x0000000000000000      0x316 BUILD/LPC1768/GCC_ARM/Examples/LEDBinaryCounter.o
+ .debug_abbrev  0x0000000000000000       0xe0 BUILD/LPC1768/GCC_ARM/Examples/LEDBinaryCounter.o
+ .debug_aranges
+                0x0000000000000000       0x50 BUILD/LPC1768/GCC_ARM/Examples/LEDBinaryCounter.o
+ .debug_ranges  0x0000000000000000       0x70 BUILD/LPC1768/GCC_ARM/Examples/LEDBinaryCounter.o
+ .debug_line    0x0000000000000000      0x1c4 BUILD/LPC1768/GCC_ARM/Examples/LEDBinaryCounter.o
+ .debug_str     0x0000000000000000      0x313 BUILD/LPC1768/GCC_ARM/Examples/LEDBinaryCounter.o
+ .comment       0x0000000000000000       0x80 BUILD/LPC1768/GCC_ARM/Examples/LEDBinaryCounter.o
+ .debug_frame   0x0000000000000000       0xec BUILD/LPC1768/GCC_ARM/Examples/LEDBinaryCounter.o
+ .ARM.attributes
+                0x0000000000000000       0x33 BUILD/LPC1768/GCC_ARM/Examples/LEDBinaryCounter.o
+ .text          0x0000000000000000        0x0 BUILD/LPC1768/GCC_ARM/Labs/Lab1/BasicAnalogIn.o
+ .data          0x0000000000000000        0x0 BUILD/LPC1768/GCC_ARM/Labs/Lab1/BasicAnalogIn.o
+ .bss           0x0000000000000000        0x0 BUILD/LPC1768/GCC_ARM/Labs/Lab1/BasicAnalogIn.o
+ .debug_line    0x0000000000000000        0x0 BUILD/LPC1768/GCC_ARM/Labs/Lab1/BasicAnalogIn.o
+ .debug_str     0x0000000000000000      0x174 BUILD/LPC1768/GCC_ARM/Labs/Lab1/BasicAnalogIn.o
+ .comment       0x0000000000000000       0x80 BUILD/LPC1768/GCC_ARM/Labs/Lab1/BasicAnalogIn.o
+ .ARM.attributes
+                0x0000000000000000       0x33 BUILD/LPC1768/GCC_ARM/Labs/Lab1/BasicAnalogIn.o
+ .text          0x0000000000000000        0x0 BUILD/LPC1768/GCC_ARM/Labs/Lab1/BasicAnalogOut.o
+ .data          0x0000000000000000        0x0 BUILD/LPC1768/GCC_ARM/Labs/Lab1/BasicAnalogOut.o
+ .bss           0x0000000000000000        0x0 BUILD/LPC1768/GCC_ARM/Labs/Lab1/BasicAnalogOut.o
+ .debug_line    0x0000000000000000        0x0 BUILD/LPC1768/GCC_ARM/Labs/Lab1/BasicAnalogOut.o
+ .debug_str     0x0000000000000000      0x175 BUILD/LPC1768/GCC_ARM/Labs/Lab1/BasicAnalogOut.o
+ .comment       0x0000000000000000       0x80 BUILD/LPC1768/GCC_ARM/Labs/Lab1/BasicAnalogOut.o
+ .ARM.attributes
+                0x0000000000000000       0x33 BUILD/LPC1768/GCC_ARM/Labs/Lab1/BasicAnalogOut.o
+ .text          0x0000000000000000        0x0 BUILD/LPC1768/GCC_ARM/Labs/Lab1/BasicDigitalIO.o
+ .data          0x0000000000000000        0x0 BUILD/LPC1768/GCC_ARM/Labs/Lab1/BasicDigitalIO.o
+ .bss           0x0000000000000000        0x0 BUILD/LPC1768/GCC_ARM/Labs/Lab1/BasicDigitalIO.o
+>>>>>>> 6e1a3f7377a528c88b612460fafdf9708d2a5899
  .text._ZN4Lab114BasicDigitalIOEv
                 0x00000000       0x74 BUILD/LPC1768/GCC_ARM/Labs/Lab1/BasicDigitalIO.o
  .rodata._ZN4Lab114BasicDigitalIOEv.str1.1
+<<<<<<< HEAD
                 0x00000000       0x52 BUILD/LPC1768/GCC_ARM/Labs/Lab1/BasicDigitalIO.o
  .debug_info    0x00000000      0x12a BUILD/LPC1768/GCC_ARM/Labs/Lab1/BasicDigitalIO.o
  .debug_abbrev  0x00000000       0x84 BUILD/LPC1768/GCC_ARM/Labs/Lab1/BasicDigitalIO.o
@@ -2350,6 +2476,31 @@ Discarded input sections
  .text          0x00000000        0x0 BUILD/LPC1768/GCC_ARM/Labs/Lab1/BasicJoystick.o
  .data          0x00000000        0x0 BUILD/LPC1768/GCC_ARM/Labs/Lab1/BasicJoystick.o
  .bss           0x00000000        0x0 BUILD/LPC1768/GCC_ARM/Labs/Lab1/BasicJoystick.o
+=======
+                0x0000000000000000       0x52 BUILD/LPC1768/GCC_ARM/Labs/Lab1/BasicDigitalIO.o
+ .debug_info    0x0000000000000000      0x12a BUILD/LPC1768/GCC_ARM/Labs/Lab1/BasicDigitalIO.o
+ .debug_abbrev  0x0000000000000000       0x84 BUILD/LPC1768/GCC_ARM/Labs/Lab1/BasicDigitalIO.o
+ .debug_aranges
+                0x0000000000000000       0x20 BUILD/LPC1768/GCC_ARM/Labs/Lab1/BasicDigitalIO.o
+ .debug_ranges  0x0000000000000000       0x10 BUILD/LPC1768/GCC_ARM/Labs/Lab1/BasicDigitalIO.o
+ .debug_line    0x0000000000000000       0xdc BUILD/LPC1768/GCC_ARM/Labs/Lab1/BasicDigitalIO.o
+ .debug_str     0x0000000000000000      0x2cf BUILD/LPC1768/GCC_ARM/Labs/Lab1/BasicDigitalIO.o
+ .comment       0x0000000000000000       0x80 BUILD/LPC1768/GCC_ARM/Labs/Lab1/BasicDigitalIO.o
+ .debug_frame   0x0000000000000000       0x28 BUILD/LPC1768/GCC_ARM/Labs/Lab1/BasicDigitalIO.o
+ .ARM.attributes
+                0x0000000000000000       0x33 BUILD/LPC1768/GCC_ARM/Labs/Lab1/BasicDigitalIO.o
+ .text          0x0000000000000000        0x0 BUILD/LPC1768/GCC_ARM/Labs/Lab1/BasicI2CTouchSwitch.o
+ .data          0x0000000000000000        0x0 BUILD/LPC1768/GCC_ARM/Labs/Lab1/BasicI2CTouchSwitch.o
+ .bss           0x0000000000000000        0x0 BUILD/LPC1768/GCC_ARM/Labs/Lab1/BasicI2CTouchSwitch.o
+ .debug_line    0x0000000000000000        0x0 BUILD/LPC1768/GCC_ARM/Labs/Lab1/BasicI2CTouchSwitch.o
+ .debug_str     0x0000000000000000      0x17a BUILD/LPC1768/GCC_ARM/Labs/Lab1/BasicI2CTouchSwitch.o
+ .comment       0x0000000000000000       0x80 BUILD/LPC1768/GCC_ARM/Labs/Lab1/BasicI2CTouchSwitch.o
+ .ARM.attributes
+                0x0000000000000000       0x33 BUILD/LPC1768/GCC_ARM/Labs/Lab1/BasicI2CTouchSwitch.o
+ .text          0x0000000000000000        0x0 BUILD/LPC1768/GCC_ARM/Labs/Lab1/BasicJoystick.o
+ .data          0x0000000000000000        0x0 BUILD/LPC1768/GCC_ARM/Labs/Lab1/BasicJoystick.o
+ .bss           0x0000000000000000        0x0 BUILD/LPC1768/GCC_ARM/Labs/Lab1/BasicJoystick.o
+>>>>>>> 6e1a3f7377a528c88b612460fafdf9708d2a5899
  .text._ZN4Lab120NavigationSwitchDemoEv
                 0x00000000       0xa4 BUILD/LPC1768/GCC_ARM/Labs/Lab1/BasicJoystick.o
  .debug_info    0x00000000       0x9a BUILD/LPC1768/GCC_ARM/Labs/Lab1/BasicJoystick.o
@@ -2435,6 +2586,7 @@ Discarded input sections
  .bss._ZN4Lab17PWM_RGB15CurrentPWMLevelE
                 0x00000000        0x8 BUILD/LPC1768/GCC_ARM/Labs/Lab1/PwmRgbLed.o
  .rodata.gpio_read.str1.1
+<<<<<<< HEAD
                 0x00000000       0x52 BUILD/LPC1768/GCC_ARM/Labs/Lab1/PwmRgbLed.o
  .debug_info    0x00000000      0x65f BUILD/LPC1768/GCC_ARM/Labs/Lab1/PwmRgbLed.o
  .debug_abbrev  0x00000000      0x1f3 BUILD/LPC1768/GCC_ARM/Labs/Lab1/PwmRgbLed.o
@@ -2501,6 +2653,78 @@ Discarded input sections
  .text          0x00000000        0x0 BUILD/LPC1768/GCC_ARM/mbed-os/drivers/AnalogIn.o
  .data          0x00000000        0x0 BUILD/LPC1768/GCC_ARM/mbed-os/drivers/AnalogIn.o
  .bss           0x00000000        0x0 BUILD/LPC1768/GCC_ARM/mbed-os/drivers/AnalogIn.o
+=======
+                0x0000000000000000       0x52 BUILD/LPC1768/GCC_ARM/Labs/Lab1/PwmRgbLed.o
+ .debug_info    0x0000000000000000      0x662 BUILD/LPC1768/GCC_ARM/Labs/Lab1/PwmRgbLed.o
+ .debug_abbrev  0x0000000000000000      0x1f3 BUILD/LPC1768/GCC_ARM/Labs/Lab1/PwmRgbLed.o
+ .debug_aranges
+                0x0000000000000000       0x98 BUILD/LPC1768/GCC_ARM/Labs/Lab1/PwmRgbLed.o
+ .debug_ranges  0x0000000000000000      0x1f8 BUILD/LPC1768/GCC_ARM/Labs/Lab1/PwmRgbLed.o
+ .debug_line    0x0000000000000000      0x432 BUILD/LPC1768/GCC_ARM/Labs/Lab1/PwmRgbLed.o
+ .debug_str     0x0000000000000000      0xe95 BUILD/LPC1768/GCC_ARM/Labs/Lab1/PwmRgbLed.o
+ .comment       0x0000000000000000       0x80 BUILD/LPC1768/GCC_ARM/Labs/Lab1/PwmRgbLed.o
+ .debug_frame   0x0000000000000000      0x17c BUILD/LPC1768/GCC_ARM/Labs/Lab1/PwmRgbLed.o
+ .ARM.attributes
+                0x0000000000000000       0x33 BUILD/LPC1768/GCC_ARM/Labs/Lab1/PwmRgbLed.o
+ .text          0x0000000000000000        0x0 BUILD/LPC1768/GCC_ARM/Labs/Lab1/SPIDigitalExpander.o
+ .data          0x0000000000000000        0x0 BUILD/LPC1768/GCC_ARM/Labs/Lab1/SPIDigitalExpander.o
+ .bss           0x0000000000000000        0x0 BUILD/LPC1768/GCC_ARM/Labs/Lab1/SPIDigitalExpander.o
+ .text.gpio_write
+                0x0000000000000000       0x2c BUILD/LPC1768/GCC_ARM/Labs/Lab1/SPIDigitalExpander.o
+ .text._ZN4Lab118SPIDigitalExpanderEv
+                0x0000000000000000       0xb0 BUILD/LPC1768/GCC_ARM/Labs/Lab1/SPIDigitalExpander.o
+ .rodata.gpio_write.str1.1
+                0x0000000000000000       0x52 BUILD/LPC1768/GCC_ARM/Labs/Lab1/SPIDigitalExpander.o
+ .debug_info    0x0000000000000000       0xf2 BUILD/LPC1768/GCC_ARM/Labs/Lab1/SPIDigitalExpander.o
+ .debug_abbrev  0x0000000000000000       0x8b BUILD/LPC1768/GCC_ARM/Labs/Lab1/SPIDigitalExpander.o
+ .debug_aranges
+                0x0000000000000000       0x28 BUILD/LPC1768/GCC_ARM/Labs/Lab1/SPIDigitalExpander.o
+ .debug_ranges  0x0000000000000000       0x18 BUILD/LPC1768/GCC_ARM/Labs/Lab1/SPIDigitalExpander.o
+ .debug_line    0x0000000000000000      0x120 BUILD/LPC1768/GCC_ARM/Labs/Lab1/SPIDigitalExpander.o
+ .debug_str     0x0000000000000000      0x247 BUILD/LPC1768/GCC_ARM/Labs/Lab1/SPIDigitalExpander.o
+ .comment       0x0000000000000000       0x80 BUILD/LPC1768/GCC_ARM/Labs/Lab1/SPIDigitalExpander.o
+ .debug_frame   0x0000000000000000       0x48 BUILD/LPC1768/GCC_ARM/Labs/Lab1/SPIDigitalExpander.o
+ .ARM.attributes
+                0x0000000000000000       0x33 BUILD/LPC1768/GCC_ARM/Labs/Lab1/SPIDigitalExpander.o
+ .text          0x0000000000000000        0x0 BUILD/LPC1768/GCC_ARM/Labs/Lab1/USBMouseJoystick.o
+ .data          0x0000000000000000        0x0 BUILD/LPC1768/GCC_ARM/Labs/Lab1/USBMouseJoystick.o
+ .bss           0x0000000000000000        0x0 BUILD/LPC1768/GCC_ARM/Labs/Lab1/USBMouseJoystick.o
+ .text._ZN4Lab111USBJoystickEv
+                0x0000000000000000       0xe8 BUILD/LPC1768/GCC_ARM/Labs/Lab1/USBMouseJoystick.o
+ .debug_info    0x0000000000000000      0x34a BUILD/LPC1768/GCC_ARM/Labs/Lab1/USBMouseJoystick.o
+ .debug_abbrev  0x0000000000000000       0xb4 BUILD/LPC1768/GCC_ARM/Labs/Lab1/USBMouseJoystick.o
+ .debug_aranges
+                0x0000000000000000       0x20 BUILD/LPC1768/GCC_ARM/Labs/Lab1/USBMouseJoystick.o
+ .debug_ranges  0x0000000000000000       0x70 BUILD/LPC1768/GCC_ARM/Labs/Lab1/USBMouseJoystick.o
+ .debug_line    0x0000000000000000      0x14f BUILD/LPC1768/GCC_ARM/Labs/Lab1/USBMouseJoystick.o
+ .debug_str     0x0000000000000000      0x9e0 BUILD/LPC1768/GCC_ARM/Labs/Lab1/USBMouseJoystick.o
+ .comment       0x0000000000000000       0x80 BUILD/LPC1768/GCC_ARM/Labs/Lab1/USBMouseJoystick.o
+ .debug_frame   0x0000000000000000       0x34 BUILD/LPC1768/GCC_ARM/Labs/Lab1/USBMouseJoystick.o
+ .ARM.attributes
+                0x0000000000000000       0x33 BUILD/LPC1768/GCC_ARM/Labs/Lab1/USBMouseJoystick.o
+ .text          0x0000000000000000        0x0 BUILD/LPC1768/GCC_ARM/Labs/Lab2/Lab2.o
+ .data          0x0000000000000000        0x0 BUILD/LPC1768/GCC_ARM/Labs/Lab2/Lab2.o
+ .bss           0x0000000000000000        0x0 BUILD/LPC1768/GCC_ARM/Labs/Lab2/Lab2.o
+ .debug_line    0x0000000000000000        0x0 BUILD/LPC1768/GCC_ARM/Labs/Lab2/Lab2.o
+ .debug_str     0x0000000000000000      0x16b BUILD/LPC1768/GCC_ARM/Labs/Lab2/Lab2.o
+ .comment       0x0000000000000000       0x80 BUILD/LPC1768/GCC_ARM/Labs/Lab2/Lab2.o
+ .ARM.attributes
+                0x0000000000000000       0x33 BUILD/LPC1768/GCC_ARM/Labs/Lab2/Lab2.o
+ .text          0x0000000000000000        0x0 BUILD/LPC1768/GCC_ARM/main.o
+ .data          0x0000000000000000        0x0 BUILD/LPC1768/GCC_ARM/main.o
+ .bss           0x0000000000000000        0x0 BUILD/LPC1768/GCC_ARM/main.o
+ .text          0x0000000000000000        0x0 BUILD/LPC1768/GCC_ARM/mbed-os/cmsis/TARGET_CORTEX_M/mbed_tz_context.o
+ .data          0x0000000000000000        0x0 BUILD/LPC1768/GCC_ARM/mbed-os/cmsis/TARGET_CORTEX_M/mbed_tz_context.o
+ .bss           0x0000000000000000        0x0 BUILD/LPC1768/GCC_ARM/mbed-os/cmsis/TARGET_CORTEX_M/mbed_tz_context.o
+ .debug_line    0x0000000000000000        0x0 BUILD/LPC1768/GCC_ARM/mbed-os/cmsis/TARGET_CORTEX_M/mbed_tz_context.o
+ .debug_str     0x0000000000000000      0x17a BUILD/LPC1768/GCC_ARM/mbed-os/cmsis/TARGET_CORTEX_M/mbed_tz_context.o
+ .comment       0x0000000000000000       0x80 BUILD/LPC1768/GCC_ARM/mbed-os/cmsis/TARGET_CORTEX_M/mbed_tz_context.o
+ .ARM.attributes
+                0x0000000000000000       0x33 BUILD/LPC1768/GCC_ARM/mbed-os/cmsis/TARGET_CORTEX_M/mbed_tz_context.o
+ .text          0x0000000000000000        0x0 BUILD/LPC1768/GCC_ARM/mbed-os/drivers/AnalogIn.o
+ .data          0x0000000000000000        0x0 BUILD/LPC1768/GCC_ARM/mbed-os/drivers/AnalogIn.o
+ .bss           0x0000000000000000        0x0 BUILD/LPC1768/GCC_ARM/mbed-os/drivers/AnalogIn.o
+>>>>>>> 6e1a3f7377a528c88b612460fafdf9708d2a5899
  .bss._ZN4mbed8AnalogIn6_mutexE
                 0x00000000       0x28 BUILD/LPC1768/GCC_ARM/mbed-os/drivers/AnalogIn.o
  .debug_line    0x00000000        0x0 BUILD/LPC1768/GCC_ARM/mbed-os/drivers/AnalogIn.o
@@ -29034,9 +29258,16 @@ ETH_RAM          0x20080000         0x00004000         xrw
 
 Linker script and memory map
 
+<<<<<<< HEAD
 LOAD c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/crti.o
 LOAD c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/crtbegin.o
 LOAD c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/crt0.o
+=======
+LOAD /Applications/MBEDCLI.app/Contents/Resources/gcc/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/crti.o
+LOAD /Applications/MBEDCLI.app/Contents/Resources/gcc/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m/crtbegin.o
+LOAD /Applications/MBEDCLI.app/Contents/Resources/gcc/gcc-arm-none-eabi-6-2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/crt0.o
+LOAD BUILD/LPC1768/GCC_ARM/Common/MCP23SA17/MCP23SA17.o
+>>>>>>> 6e1a3f7377a528c88b612460fafdf9708d2a5899
 LOAD BUILD/LPC1768/GCC_ARM/Common/USBDevice/USBAudio/USBAudio.o
 LOAD BUILD/LPC1768/GCC_ARM/Common/USBDevice/USBDevice/USBDevice.o
 LOAD BUILD/LPC1768/GCC_ARM/Common/USBDevice/USBHID/USBHID.o
