@@ -9,6 +9,7 @@
 
 #include "stdint.h"
 #include "mbed.h"
+#include "mpr121.h"
 
 //#include "DebounceIn.hpp"
 

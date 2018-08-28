@@ -97,9 +97,7 @@ namespace Lab1 {
 
 		//-----------------------------------------------------------
 		// Setup the PWM output on the LED.
-		PwmOut Red(LED1);
-		PwmOut Green(LED2);
-		PwmOut Blue(LED3);
+		PwmOut TheLED(p25);
 
 		   
 		while(true) 
