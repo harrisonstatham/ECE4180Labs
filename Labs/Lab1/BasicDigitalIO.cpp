@@ -19,14 +19,13 @@ namespace Lab1 {
 	void BasicDigitalIO()
 	{
 		
-		while(true)
-		{
+
 			// Create a de-bounced input for the switch.
 			// Note, DebounceIn is in the Common namespace.
 			DigitalIn TheSwitch(p12);
 			
 			// Create a digital out for the LED.
-			DigitalOut TheLED(LED1);
+			DigitalOut TheLED(p25);
 			
 			while(1)
 			{
@@ -35,7 +34,7 @@ namespace Lab1 {
 				// Note the negation, because we hooked the pullup resistor to +5V.
 				TheLED = !TheSwitch;
 			}
-		}
+		
 	}
 
 }
