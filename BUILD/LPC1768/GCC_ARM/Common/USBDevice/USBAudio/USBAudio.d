@@ -1,6 +1,6 @@
-BUILD/LPC1768/GCC_ARM/Common/USBDevice/USBAudio/USBAudio.o: \
- Common/USBDevice/USBAudio/USBAudio.cpp \
- BUILD/LPC1768/GCC_ARM/mbed_config.h Common/USBDevice/USBAudio/USBAudio.h \
+BUILD\LPC1768\GCC_ARM\Common\USBDevice\USBAudio\USBAudio.o: \
+ Common\USBDevice\USBAudio\USBAudio.cpp \
+ BUILD\LPC1768\GCC_ARM\mbed_config.h Common\USBDevice\USBAudio\USBAudio.h \
  Common/USBDevice/USBDevice/USBEndpoints.h \
  Common/USBDevice/targets/TARGET_NXP/USBEndpoints_LPC17_LPC23.h \
  Common/USBDevice/USBDevice/USBDescriptor.h \
@@ -132,4 +132,4 @@ BUILD/LPC1768/GCC_ARM/Common/USBDevice/USBAudio/USBAudio.o: \
  Common/USBDevice/USBDevice/USBDevice_Types.h \
  Common/USBDevice/USBDevice/USBHAL.h \
  Common/USBDevice/USBDevice/USBEndpoints.h \
- Common/USBDevice/USBAudio/USBAudio_Types.h
+ Common\USBDevice\USBAudio\USBAudio_Types.h

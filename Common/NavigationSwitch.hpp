@@ -1,4 +1,3 @@
-
 #ifndef NavigationSwitch_H
 #define NavigationSwitch_H
 

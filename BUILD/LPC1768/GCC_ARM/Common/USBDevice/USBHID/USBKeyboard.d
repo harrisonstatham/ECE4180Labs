@@ -1,12 +1,12 @@
-BUILD/LPC1768/GCC_ARM/Common/USBDevice/USBHID/USBKeyboard.o: \
- Common/USBDevice/USBHID/USBKeyboard.cpp \
- BUILD/LPC1768/GCC_ARM/mbed_config.h \
- Common/USBDevice/USBHID/USBKeyboard.h Common/USBDevice/USBHID/USBHID.h \
+BUILD\LPC1768\GCC_ARM\Common\USBDevice\USBHID\USBKeyboard.o: \
+ Common\USBDevice\USBHID\USBKeyboard.cpp \
+ BUILD\LPC1768\GCC_ARM\mbed_config.h \
+ Common\USBDevice\USBHID\USBKeyboard.h Common\USBDevice\USBHID\USBHID.h \
  Common/USBDevice/USBDevice/USBEndpoints.h \
  Common/USBDevice/targets/TARGET_NXP/USBEndpoints_LPC17_LPC23.h \
  Common/USBDevice/USBDevice/USBDescriptor.h \
  Common/USBDevice/USBDevice/USBDevice_Types.h \
- Common/USBDevice/USBHID/USBHID_Types.h \
+ Common\USBDevice\USBHID\USBHID_Types.h \
  Common/USBDevice/USBDevice/USBDevice.h mbed-os/mbed.h \
  mbed-os/platform/mbed_version.h mbed-os/rtos/rtos.h \
  mbed-os/rtos/TARGET_CORTEX/mbed_rtos_storage.h \

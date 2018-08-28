@@ -1,5 +1,5 @@
-BUILD/LPC1768/GCC_ARM/Examples/LEDBinaryCounter.o: \
- Examples/LEDBinaryCounter.cpp BUILD/LPC1768/GCC_ARM/mbed_config.h \
+BUILD\LPC1768\GCC_ARM\Examples\LEDBinaryCounter.o: \
+ Examples\LEDBinaryCounter.cpp BUILD\LPC1768\GCC_ARM\mbed_config.h \
  Examples/Headers/LEDBinaryCounter.hpp mbed-os/mbed.h \
  mbed-os/platform/mbed_version.h mbed-os/rtos/rtos.h \
  mbed-os/rtos/TARGET_CORTEX/mbed_rtos_storage.h \

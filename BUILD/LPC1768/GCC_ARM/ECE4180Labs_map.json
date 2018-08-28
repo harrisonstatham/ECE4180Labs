@@ -1,6 +1,6 @@
 [
     {
-        "module": "Common/USBDevice", 
+        "module": "Common\\USBDevice", 
         "size": {
             ".data": 0, 
             ".bss": 0, 
@@ -8,7 +8,7 @@
         }
     }, 
     {
-        "module": "Labs/Lab1", 
+        "module": "Labs\\Lab1", 
         "size": {
             ".data": 0, 
             ".bss": 8, 
@@ -24,7 +24,7 @@
         }
     }, 
     {
-        "module": "[lib]/c.a", 
+        "module": "[lib]\\c.a", 
         "size": {
             ".data": 2472, 
             ".bss": 89, 
@@ -32,7 +32,7 @@
         }
     }, 
     {
-        "module": "[lib]/gcc.a", 
+        "module": "[lib]\\gcc.a", 
         "size": {
             ".data": 0, 
             ".bss": 0, 
@@ -40,7 +40,7 @@
         }
     }, 
     {
-        "module": "[lib]/misc", 
+        "module": "[lib]\\misc", 
         "size": {
             ".data": 12, 
             ".bss": 28, 
@@ -56,7 +56,7 @@
         }
     }, 
     {
-        "module": "mbed-os/drivers", 
+        "module": "mbed-os\\drivers", 
         "size": {
             ".data": 0, 
             ".bss": 0, 
@@ -64,7 +64,7 @@
         }
     }, 
     {
-        "module": "mbed-os/hal", 
+        "module": "mbed-os\\hal", 
         "size": {
             ".data": 4, 
             ".bss": 68, 
@@ -72,7 +72,7 @@
         }
     }, 
     {
-        "module": "mbed-os/platform", 
+        "module": "mbed-os\\platform", 
         "size": {
             ".data": 260, 
             ".bss": 133, 
@@ -80,7 +80,7 @@
         }
     }, 
     {
-        "module": "mbed-os/rtos", 
+        "module": "mbed-os\\rtos", 
         "size": {
             ".data": 168, 
             ".bss": 6073, 
@@ -88,7 +88,7 @@
         }
     }, 
     {
-        "module": "mbed-os/targets", 
+        "module": "mbed-os\\targets", 
         "size": {
             ".data": 32, 
             ".bss": 245, 
