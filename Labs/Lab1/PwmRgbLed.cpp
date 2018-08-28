@@ -99,12 +99,6 @@ namespace Lab1 {
 		// Setup the PWM output on the LED.
 		PwmOut TheLED(p25);
 
-		   
-		while(true) 
-		{
-			Red = !Red;
-			wait( 0.2 );
-	    }
 
 	}
 
