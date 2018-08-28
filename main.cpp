@@ -25,8 +25,12 @@ int main() {
 
    // Lab1::BasicDigitalIO();
 
-    Lab1::BasicPWM();
+    //Lab1::BasicPWM();
 
+	//Lab1::NavigationSwitchDemo();
+	
+	Lab1::USBJoystick();
+	
     #pragma endregion
 
 

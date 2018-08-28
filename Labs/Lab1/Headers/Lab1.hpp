@@ -9,6 +9,7 @@
 
 #include "BasicDigitalIO.hpp"
 #include "BasicPWM.hpp"
-
+#include "BasicJoystick.hpp"
+#include "USBMouseJoystick.hpp"
 
 #endif
