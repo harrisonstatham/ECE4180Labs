@@ -11,5 +11,6 @@
 #include "BasicPWM.hpp"
 #include "BasicJoystick.hpp"
 #include "USBMouseJoystick.hpp"
+#include "BasicI2CTouchSwitch.hpp"
 
 #endif

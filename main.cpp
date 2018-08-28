@@ -29,7 +29,9 @@ int main() {
 
 	//Lab1::NavigationSwitchDemo();
 	
-	Lab1::USBJoystick();
+	//Lab1::USBJoystick();
+	
+	Lab1::BasicI2CTouchSwitch();
 	
     #pragma endregion
 
