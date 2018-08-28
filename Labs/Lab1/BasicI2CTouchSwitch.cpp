@@ -20,7 +20,7 @@ namespace Lab1
         I2C i2c(p9, p10);
         // Setup the Mpr121:
         // constructor(i2c object, i2c address of the mpr121)
-        Mpr121 mpr121(&i2c, Mpr121::ADD_VSS);
+        Common::Mpr121 mpr121(&i2c, Common::Mpr121::ADD_VSS);
 
         // Key hit/release interrupt routine
         void fallInterrupt() {
