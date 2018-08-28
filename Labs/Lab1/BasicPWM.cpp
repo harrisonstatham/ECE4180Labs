@@ -91,13 +91,9 @@ namespace Lab1 {
 
 		//-----------------------------------------------------------
 		// Setup the PWM output on the LED.
-		PwmOut led(LED1);
-
-		DigitalOut led2(LED2);
+		PwmOut led(p25);
 
 		//Serial pc(USBTX, USBRX); // tx, rx
-
-		led2 = 1;
 
 		while(true) 
 		{

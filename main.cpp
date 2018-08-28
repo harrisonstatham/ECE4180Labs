@@ -23,9 +23,9 @@ int main() {
 
     #pragma region Lab 1
 
-    Lab1::BasicDigitalIO();
+   // Lab1::BasicDigitalIO();
 
-   // Lab1::BasicPWM();
+    Lab1::BasicPWM();
 
     #pragma endregion
 
