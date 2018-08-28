@@ -23,7 +23,7 @@ int main() {
 
     #pragma region Lab 1
 
-   // Lab1::BasicDigitalIO();
+    // Lab1::BasicDigitalIO();
 
     //Lab1::BasicPWM();
 
@@ -31,7 +31,11 @@ int main() {
 	
 	//Lab1::USBJoystick();
 	
-	Lab1::BasicI2CTouchSwitch();
+	//Lab1::BasicI2CTouchSwitch();
+	
+	//Lab1::BasicAnalogIn();
+	
+	Lab1::BasicAnalogOut();
 	
     #pragma endregion
 

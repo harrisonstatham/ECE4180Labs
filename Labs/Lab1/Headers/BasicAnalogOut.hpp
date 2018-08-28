@@ -8,8 +8,8 @@
 // Kristina Beck
 //
 
-#ifndef BasicDigitalIO_hpp
-#define BasicDigitalIO_hpp
+#ifndef BasicAnalogOut_hpp
+#define BasicAnalogOut_hpp
 
 #include "stdint.h"
 #include "mbed.h"

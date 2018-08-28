@@ -1,6 +1,6 @@
 [
     {
-        "module": "Common/MPR121", 
+        "module": "Common\\MPR121", 
         "size": {
             ".data": 0, 
             ".bss": 0, 
@@ -8,15 +8,15 @@
         }
     }, 
     {
-        "module": "Common/USBDevice", 
+        "module": "Common\\USBDevice", 
         "size": {
-            ".data": 354, 
-            ".bss": 34, 
-            ".text": 5741
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 111
         }
     }, 
     {
-        "module": "Examples/LEDBinaryCounter.o", 
+        "module": "Examples\\LEDBinaryCounter.o", 
         "size": {
             ".data": 0, 
             ".bss": 0, 
@@ -24,39 +24,47 @@
         }
     }, 
     {
-        "module": "Labs/Lab1", 
+        "module": "Labs\\Lab1", 
         "size": {
-            ".data": 4, 
-            ".bss": 188, 
-            ".text": 422
+            ".data": 8, 
+            ".bss": 232, 
+            ".text": 626
         }
     }, 
     {
         "module": "[fill]", 
         "size": {
-            ".data": 2, 
-            ".bss": 22, 
-            ".text": 656
+            ".data": 4, 
+            ".bss": 20, 
+            ".text": 651
         }
     }, 
     {
-        "module": "[lib]/c.a", 
+        "module": "[lib]\\c.a", 
         "size": {
             ".data": 2472, 
             ".bss": 89, 
-            ".text": 17155
+            ".text": 17139
         }
     }, 
     {
-        "module": "[lib]/gcc.a", 
+        "module": "[lib]\\gcc.a", 
         "size": {
             ".data": 0, 
             ".bss": 0, 
-            ".text": 3916
+            ".text": 3232
         }
     }, 
     {
-        "module": "[lib]/misc", 
+        "module": "[lib]\\m.a", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 5352
+        }
+    }, 
+    {
+        "module": "[lib]\\misc", 
         "size": {
             ".data": 12, 
             ".bss": 28, 
@@ -72,15 +80,15 @@
         }
     }, 
     {
-        "module": "mbed-os/drivers", 
+        "module": "mbed-os\\drivers", 
         "size": {
             ".data": 0, 
             ".bss": 44, 
-            ".text": 1024
+            ".text": 438
         }
     }, 
     {
-        "module": "mbed-os/hal", 
+        "module": "mbed-os\\hal", 
         "size": {
             ".data": 4, 
             ".bss": 68, 
@@ -88,15 +96,15 @@
         }
     }, 
     {
-        "module": "mbed-os/platform", 
+        "module": "mbed-os\\platform", 
         "size": {
             ".data": 260, 
             ".bss": 133, 
-            ".text": 2975
+            ".text": 2882
         }
     }, 
     {
-        "module": "mbed-os/rtos", 
+        "module": "mbed-os\\rtos", 
         "size": {
             ".data": 168, 
             ".bss": 6073, 
@@ -104,17 +112,17 @@
         }
     }, 
     {
-        "module": "mbed-os/targets", 
+        "module": "mbed-os\\targets", 
         "size": {
             ".data": 4, 
             ".bss": 437, 
-            ".text": 4567
+            ".text": 4775
         }
     }, 
     {
         "summary": {
-            "static_ram": 10396, 
-            "total_flash": 51036
+            "static_ram": 10056, 
+            "total_flash": 49438
         }
     }
 ]

@@ -1,5 +1,5 @@
-BUILD/LPC1768/GCC_ARM/main.o: main.cpp \
- BUILD/LPC1768/GCC_ARM/mbed_config.h mbed-os/mbed.h \
+BUILD\LPC1768\GCC_ARM\main.o: main.cpp \
+ BUILD\LPC1768\GCC_ARM\mbed_config.h mbed-os/mbed.h \
  mbed-os/platform/mbed_version.h mbed-os/rtos/rtos.h \
  mbed-os/rtos/TARGET_CORTEX/mbed_rtos_storage.h \
  mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_lib.h \
@@ -136,4 +136,6 @@ BUILD/LPC1768/GCC_ARM/main.o: main.cpp \
  Common/USBDevice/USBDevice/USBDevice.h \
  Common/USBDevice/USBDevice/USBDevice_Types.h \
  Common/USBDevice/USBDevice/USBHAL.h \
- Common/USBDevice/USBDevice/USBEndpoints.h
+ Common/USBDevice/USBDevice/USBEndpoints.h \
+ Labs/Lab1/Headers/BasicI2CTouchSwitch.hpp Common/MPR121/mpr121.h \
+ Labs/Lab1/Headers/BasicAnalogIn.hpp Labs/Lab1/Headers/BasicAnalogOut.hpp

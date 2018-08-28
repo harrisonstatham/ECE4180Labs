@@ -1,7 +1,7 @@
-BUILD/LPC1768/GCC_ARM/test_env.o: \
- /Users/harrison/Documents/Personal/programming/ECE4180Labs/mbed-os/features/unsupported/tests/mbed/env/test_env.cpp \
- BUILD/LPC1768/GCC_ARM/mbed_config.h \
- /Users/harrison/Documents/Personal/programming/ECE4180Labs/mbed-os/features/unsupported/tests/mbed/env/test_env.h \
+BUILD\LPC1768\GCC_ARM\test_env.o: \
+ C:\Users\krist\Documents\GitHub\ECE4180Labs\mbed-os\features/unsupported\tests\mbed\env\test_env.cpp \
+ BUILD\LPC1768\GCC_ARM\mbed_config.h \
+ C:\Users\krist\Documents\GitHub\ECE4180Labs\mbed-os\features/unsupported\tests\mbed\env\test_env.h \
  mbed-os/mbed.h mbed-os/platform/mbed_version.h mbed-os/rtos/rtos.h \
  mbed-os/rtos/TARGET_CORTEX/mbed_rtos_storage.h \
  mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_lib.h \

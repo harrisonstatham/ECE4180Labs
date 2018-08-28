@@ -4,8 +4,8 @@
 // Kristina Beck
 //
 
-#ifndef BasicDigitalIO_hpp
-#define BasicDigitalIO_hpp
+#ifndef BasicI2CTouchSwitch_hpp
+#define BasicI2CTouchSwitch_hpp
 
 #include "stdint.h"
 #include "mbed.h"
