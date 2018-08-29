@@ -28,15 +28,15 @@
         "size": {
             ".data": 8, 
             ".bss": 232, 
-            ".text": 590
+            ".text": 784
         }
     }, 
     {
         "module": "[fill]", 
         "size": {
             ".data": 4, 
-            ".bss": 20, 
-            ".text": 631
+            ".bss": 16, 
+            ".text": 638
         }
     }, 
     {
@@ -52,7 +52,7 @@
         "size": {
             ".data": 0, 
             ".bss": 0, 
-            ".text": 4756
+            ".text": 4456
         }
     }, 
     {
@@ -60,7 +60,7 @@
         "size": {
             ".data": 0, 
             ".bss": 0, 
-            ".text": 4596
+            ".text": 280
         }
     }, 
     {
@@ -80,11 +80,19 @@
         }
     }, 
     {
+        "module": "mbed-os\\MCP23s17.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 324
+        }
+    }, 
+    {
         "module": "mbed-os\\drivers", 
         "size": {
             ".data": 0, 
-            ".bss": 44, 
-            ".text": 438
+            ".bss": 88, 
+            ".text": 726
         }
     }, 
     {
@@ -100,7 +108,7 @@
         "size": {
             ".data": 260, 
             ".bss": 133, 
-            ".text": 2882
+            ".text": 2906
         }
     }, 
     {
@@ -116,13 +124,13 @@
         "size": {
             ".data": 4, 
             ".bss": 437, 
-            ".text": 4775
+            ".text": 5814
         }
     }, 
     {
         "summary": {
-            "static_ram": 10056, 
-            "total_flash": 50150
+            "static_ram": 10096, 
+            "total_flash": 47410
         }
     }
 ]

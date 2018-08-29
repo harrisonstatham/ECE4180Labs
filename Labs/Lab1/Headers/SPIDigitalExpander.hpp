@@ -6,11 +6,12 @@
 // Harrison Statham
 //
 
-#ifndef BasicDigitalIO_hpp
-#define BasicDigitalIO_hpp
+#ifndef SPIDigitalExpander_hpp
+#define SPIDigitalExpander_hpp
 
 #include "stdint.h"
 #include "mbed.h"
+#include "MCP23S17.h"
 
 //#include "DebounceIn.hpp"
 

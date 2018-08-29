@@ -12,6 +12,7 @@
 #include "BasicJoystick.hpp"
 #include "USBMouseJoystick.hpp"
 #include "BasicI2CTouchSwitch.hpp"
+#include "SPIDigitalExpander.hpp"
 #include "BasicAnalogIn.hpp"
 #include "BasicAnalogOut.hpp"
 

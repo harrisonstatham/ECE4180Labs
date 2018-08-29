@@ -138,4 +138,6 @@ BUILD\LPC1768\GCC_ARM\main.o: main.cpp \
  Common/USBDevice/USBDevice/USBHAL.h \
  Common/USBDevice/USBDevice/USBEndpoints.h \
  Labs/Lab1/Headers/BasicI2CTouchSwitch.hpp Common/MPR121/mpr121.h \
- Labs/Lab1/Headers/BasicAnalogIn.hpp Labs/Lab1/Headers/BasicAnalogOut.hpp
+ Labs/Lab1/Headers/SPIDigitalExpander.hpp mbed-os/MCP23S17.h \
+ mbed-os/mbed.h Labs/Lab1/Headers/BasicAnalogIn.hpp \
+ Labs/Lab1/Headers/BasicAnalogOut.hpp
