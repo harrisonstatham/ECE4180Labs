@@ -12,6 +12,7 @@
 #define BasicAnalogOut_hpp
 
 #include "stdint.h"
+#include "math.h"
 #include "mbed.h"
 
 //#include "DebounceIn.hpp"

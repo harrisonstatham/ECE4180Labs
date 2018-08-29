@@ -33,9 +33,9 @@ int main() {
 	
 	//Lab1::BasicI2CTouchSwitch();
 	
-	Lab1::BasicAnalogIn();
+	//Lab1::BasicAnalogIn();
 	
-	//Lab1::BasicAnalogOut();
+	Lab1::BasicAnalogOut();
 	
     #pragma endregion
 
