@@ -61,6 +61,11 @@ namespace Lab1 {
 			// read back value from MCP23S17 Port B and display B0 on mbed led1
 			led1 = chip.read(PORT_B)& 0x01;
 			// led1 should blink slowly when it is all working
+			//To prove this part of the code is working:
+			led1=0;
+			wait(.2);
+			led1=1;
+			wait(.2);
 		}
 	}
 }
