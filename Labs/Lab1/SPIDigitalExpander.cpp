@@ -22,7 +22,7 @@ namespace Lab1 {
 	// MCP23S17 GPA0 connected to GPB0 for loopback test
 	// A0, A1, A2 of the MCP23S17  are tied to ground on the breadboard, so the 8-bit address for writes is 0x40
 	// This is referred to as the opcode in the device datasheet
-	char Opcode = 0x40;
+	char Opcode = 0x42;
  
 	// Next create a MCP23S17
 	// mbed p20 is connected to ~chipSelect on the MCP23S17

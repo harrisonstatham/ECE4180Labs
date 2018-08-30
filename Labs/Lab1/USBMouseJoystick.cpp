@@ -31,7 +31,7 @@ namespace Lab1
             if (myNav.fire()) left_click = 1;
             if (!myNav.fire())left_click = 0;
             //send a mouse data packet to PC
-            mouse.update(x, y, left_click, 0);
+            mouse.update(x, y, left_click, 1);
             wait(0.001);
         }
     }

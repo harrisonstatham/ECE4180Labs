@@ -23,17 +23,17 @@ int main() {
 
     #pragma region Lab 1
 
-    // Lab1::BasicDigitalIO();
+     //Lab1::BasicDigitalIO();
 
     //Lab1::BasicPWM();
 
 	//Lab1::NavigationSwitchDemo();
 	
-	//Lab1::USBJoystick();
+	Lab1::USBJoystick();
 	
 	//Lab1::BasicI2CTouchSwitch();
 	
-	Lab1::SPIDigitalExpander();
+	//Lab1::SPIDigitalExpander();
 	
 	//Lab1::BasicAnalogIn();
 	

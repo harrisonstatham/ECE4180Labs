@@ -10,9 +10,9 @@
     {
         "module": "Common\\USBDevice", 
         "size": {
-            ".data": 0, 
-            ".bss": 0, 
-            ".text": 111
+            ".data": 354, 
+            ".bss": 34, 
+            ".text": 5741
         }
     }, 
     {
@@ -28,15 +28,15 @@
         "size": {
             ".data": 8, 
             ".bss": 232, 
-            ".text": 820
+            ".text": 694
         }
     }, 
     {
         "module": "[fill]", 
         "size": {
-            ".data": 4, 
-            ".bss": 16, 
-            ".text": 642
+            ".data": 2, 
+            ".bss": 18, 
+            ".text": 658
         }
     }, 
     {
@@ -44,7 +44,7 @@
         "size": {
             ".data": 2472, 
             ".bss": 89, 
-            ".text": 17139
+            ".text": 17155
         }
     }, 
     {
@@ -52,15 +52,7 @@
         "size": {
             ".data": 0, 
             ".bss": 0, 
-            ".text": 4456
-        }
-    }, 
-    {
-        "module": "[lib]\\m.a", 
-        "size": {
-            ".data": 0, 
-            ".bss": 0, 
-            ".text": 280
+            ".text": 3916
         }
     }, 
     {
@@ -80,19 +72,11 @@
         }
     }, 
     {
-        "module": "mbed-os\\MCP23s17.o", 
-        "size": {
-            ".data": 0, 
-            ".bss": 0, 
-            ".text": 324
-        }
-    }, 
-    {
         "module": "mbed-os\\drivers", 
         "size": {
             ".data": 0, 
-            ".bss": 88, 
-            ".text": 726
+            ".bss": 44, 
+            ".text": 894
         }
     }, 
     {
@@ -108,7 +92,7 @@
         "size": {
             ".data": 260, 
             ".bss": 133, 
-            ".text": 2906
+            ".text": 2975
         }
     }, 
     {
@@ -124,13 +108,13 @@
         "size": {
             ".data": 4, 
             ".bss": 437, 
-            ".text": 5814
+            ".text": 4759
         }
     }, 
     {
         "summary": {
-            "static_ram": 10096, 
-            "total_flash": 47450
+            "static_ram": 10440, 
+            "total_flash": 51376
         }
     }
 ]
