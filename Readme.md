@@ -19,3 +19,20 @@ Labs
             BasicAnalogOut.hpp
         BasicAnalogIn.cpp
         BasicAnalogOut.cpp
+
+
+If the folder structure already exists, and you just want to add new files you can call:
+
+`python3 LabFileCreator.py -l Lab1 -n BasicDigitalIO -v -f` (Note the added `-f` flag)
+
+The folder structure will now look like:
+
+Labs
+    Lab1
+        Headers
+            BasicAnalogIn.hpp
+            BasicAnalogOut.hpp
+            BasicDigitalIO.hpp
+        BasicAnalogIn.cpp
+        BasicAnalogOut.cpp
+        BasicDigitalIO.hpp
