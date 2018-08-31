@@ -2,9 +2,7 @@
 //--------------------------------------------------------------------------
 // Lab2.x 
 //
-// https://developer.mbed.org/components/LSM9DS1-IMU/
-// https://os.mbed.com/users/4180_1/code/LSM9DS1_Library/
-// 
+// Harrison Statham
 //
 
 #ifndef L21_I2CIMU_HPP
@@ -12,6 +10,8 @@
 
 #include "mbed.hpp" 
 #include "stdint.hpp" 
+
+#include "LSM9DS1.h"
 
 
 namespace Lab2 
