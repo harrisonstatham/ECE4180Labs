@@ -12,8 +12,6 @@
 
 #include "mbed.hpp" 
 #include "stdint.hpp" 
-#include "Lab2.hpp" 
-
 namespace Lab2 
 {
 

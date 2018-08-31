@@ -165,7 +165,6 @@ def main():
             # Write the include line to the file.
             handle.write("#include \"mbed.hpp\" \r\n")
             handle.write("#include \"stdint.hpp\" \r\n")
-            handle.write("#include \"{0}.hpp\" \r\n\r\n".format(LabName))
 
             # Write the namespace
             handle.write("namespace {0} \r\n".format(LabName))
