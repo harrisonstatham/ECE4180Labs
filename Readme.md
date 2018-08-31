@@ -14,12 +14,12 @@ Run `python LabFileCreator.py -l Lab1 -n BasicAnalogIn BasicAnalogOut -v` to cre
 
 ```
 /Labs/
-    /Lab1/
-        /Headers/
-            -BasicAnalogIn.hpp
-            -BasicAnalogOut.hpp
-        -BasicAnalogIn.cpp
-        -BasicAnalogOut.cpp
+|.. /Lab1/
+    |.. /Headers/
+        |... BasicAnalogIn.hpp
+        |... BasicAnalogOut.hpp
+    |.. BasicAnalogIn.cpp
+    |.. BasicAnalogOut.cpp
 ```
 
 If the folder structure already exists, and you just want to add new files you can call:
@@ -30,12 +30,12 @@ The folder structure will now look like:
 
 ```
 /Labs/
-    /Lab1/
-        /Headers/
-            -BasicAnalogIn.hpp
-            -BasicAnalogOut.hpp
-            -BasicDigitalIO.hpp
-        -BasicAnalogIn.cpp
-        -BasicAnalogOut.cpp
-        -BasicDigitalIO.hpp
+|.. /Lab1/
+    |.. /Headers/
+        |... BasicAnalogIn.hpp
+        |... BasicAnalogOut.hpp
+        |... BasicDigitalIO.hpp
+    |.. BasicAnalogIn.cpp
+    |.. BasicAnalogOut.cpp
+    |.. BasicDigitalIO.hpp
 ```
