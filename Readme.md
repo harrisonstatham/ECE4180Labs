@@ -16,8 +16,8 @@ Run `python LabFileCreator.py -l Lab1 -n BasicAnalogIn BasicAnalogOut -v` to cre
 /Labs/
 |.. /Lab1/
     |.. /Headers/
-        |... BasicAnalogIn.hpp
-        |... BasicAnalogOut.hpp
+        |.. BasicAnalogIn.hpp
+        |.. BasicAnalogOut.hpp
     |.. BasicAnalogIn.cpp
     |.. BasicAnalogOut.cpp
 ```
@@ -32,9 +32,9 @@ The folder structure will now look like:
 /Labs/
 |.. /Lab1/
     |.. /Headers/
-        |... BasicAnalogIn.hpp
-        |... BasicAnalogOut.hpp
-        |... BasicDigitalIO.hpp
+        |.. BasicAnalogIn.hpp
+        |.. BasicAnalogOut.hpp
+        |.. BasicDigitalIO.hpp
     |.. BasicAnalogIn.cpp
     |.. BasicAnalogOut.cpp
     |.. BasicDigitalIO.hpp
