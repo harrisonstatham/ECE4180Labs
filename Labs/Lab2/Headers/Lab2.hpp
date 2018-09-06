@@ -11,13 +11,13 @@
 #define Lab2_HPP
 
 #include "mbed.hpp" 
-#include "stdint.hpp" 
+#include "stdint.hpp"
+
+#include "L26_RelayDriver.hpp"
 
 
 namespace Lab2 
 {
-
-	void Lab2();
 
 } // end namespace Lab2 
 

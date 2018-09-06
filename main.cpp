@@ -10,7 +10,9 @@
 #include "stdint.h"
 #include "mbed.h"   
 
-#include "Lab1.hpp"
+//#include "Lab1.hpp"
+
+#include "Lab2.hpp"
 
 int main() {
     
@@ -29,7 +31,7 @@ int main() {
 
 	//Lab1::NavigationSwitchDemo();
 	
-	Lab1::USBJoystick();
+	//Lab1::USBJoystick();
 	
 	//Lab1::BasicI2CTouchSwitch();
 	
@@ -52,6 +54,9 @@ int main() {
     //
 
     #pragma region Lab 2
+
+    Lab2::L26_RelayDriver();
+
 
     #pragma endregion
 
