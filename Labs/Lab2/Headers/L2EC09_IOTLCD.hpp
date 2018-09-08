@@ -10,8 +10,8 @@
 #ifndef L2EC09_IOTLCD_HPP
 #define L2EC09_IOTLCD_HPP
 
-#include "mbed.hpp" 
-#include "stdint.hpp" 
+#include "mbed.h" 
+#include "stdint.h" 
 
 
 namespace Lab2 

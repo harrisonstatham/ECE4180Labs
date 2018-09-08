@@ -10,8 +10,8 @@
 #ifndef L23_SerialULCD_HPP
 #define L23_SerialULCD_HPP
 
-#include "mbed.hpp" 
-#include "stdint.hpp" 
+#include "mbed.h" 
+#include "stdint.h" 
 
 
 namespace Lab2 

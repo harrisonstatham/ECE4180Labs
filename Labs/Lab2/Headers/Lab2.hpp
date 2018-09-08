@@ -10,9 +10,10 @@
 #ifndef Lab2_HPP
 #define Lab2_HPP
 
-#include "mbed.hpp" 
-#include "stdint.hpp"
+#include "mbed.h" 
+#include "stdint.h"
 
+#include "L21_I2CIMU.hpp"
 #include "L26_RelayDriver.hpp"
 
 

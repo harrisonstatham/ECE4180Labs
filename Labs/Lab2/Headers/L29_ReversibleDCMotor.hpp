@@ -10,8 +10,8 @@
 #ifndef L29_ReversibleDCMotor_HPP
 #define L29_ReversibleDCMotor_HPP
 
-#include "mbed.hpp" 
-#include "stdint.hpp" 
+#include "mbed.h" 
+#include "stdint.h" 
 
 
 namespace Lab2 

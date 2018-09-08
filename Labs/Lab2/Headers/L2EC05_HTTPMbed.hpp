@@ -10,8 +10,8 @@
 #ifndef L2EC05_HTTPMbed_HPP
 #define L2EC05_HTTPMbed_HPP
 
-#include "mbed.hpp" 
-#include "stdint.hpp" 
+#include "mbed.h" 
+#include "stdint.h" 
 
 
 namespace Lab2 

@@ -55,7 +55,9 @@ int main() {
 
     #pragma region Lab 2
 
-    Lab2::L26_RelayDriver();
+    Lab2::L21_I2CIMU();
+
+    //Lab2::L26_RelayDriver();
 
 
     #pragma endregion

@@ -10,8 +10,8 @@
 #ifndef L216_TOFDistance_HPP
 #define L216_TOFDistance_HPP
 
-#include "mbed.hpp" 
-#include "stdint.hpp" 
+#include "mbed.h" 
+#include "stdint.h"
 
 
 namespace Lab2 

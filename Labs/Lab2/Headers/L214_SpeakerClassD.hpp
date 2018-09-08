@@ -10,8 +10,8 @@
 #ifndef L214_SpeakerClassD_HPP
 #define L214_SpeakerClassD_HPP
 
-#include "mbed.hpp" 
-#include "stdint.hpp" 
+#include "mbed.h" 
+#include "stdint.h"
 
 
 namespace Lab2 

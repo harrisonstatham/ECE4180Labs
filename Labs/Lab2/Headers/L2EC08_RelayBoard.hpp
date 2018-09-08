@@ -10,8 +10,8 @@
 #ifndef L2EC08_RelayBoard_HPP
 #define L2EC08_RelayBoard_HPP
 
-#include "mbed.hpp" 
-#include "stdint.hpp" 
+#include "mbed.h" 
+#include "stdint.h" 
 
 
 namespace Lab2 

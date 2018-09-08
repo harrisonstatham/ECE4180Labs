@@ -1,5 +1,5 @@
-BUILD\LPC1768\GCC_ARM\main.o: main.cpp \
- BUILD\LPC1768\GCC_ARM\mbed_config.h mbed-os/mbed.h \
+BUILD/LPC1768/GCC_ARM/main.o: main.cpp \
+ BUILD/LPC1768/GCC_ARM/mbed_config.h mbed-os/mbed.h \
  mbed-os/platform/mbed_version.h mbed-os/rtos/rtos.h \
  mbed-os/rtos/TARGET_CORTEX/mbed_rtos_storage.h \
  mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_lib.h \
@@ -123,21 +123,6 @@ BUILD\LPC1768\GCC_ARM\main.o: main.cpp \
  mbed-os/platform/CriticalSectionLock.h mbed-os/platform/DeepSleepLock.h \
  mbed-os/platform/mbed_stats.h mbed-os/platform/Callback.h \
  mbed-os/platform/FunctionPointer.h mbed-os/platform/ScopedLock.h \
- Labs/Lab1/Headers/Lab1.hpp Labs/Lab1/Headers/BasicDigitalIO.hpp \
- Labs/Lab1/Headers/BasicPWM.hpp Common/PinDetect/PinDetect.hpp \
- Labs/Lab1/Headers/BasicJoystick.hpp Common/NavigationSwitch.hpp \
- Labs/Lab1/Headers/USBMouseJoystick.hpp \
- Common/USBDevice/USBHID/USBMouse.h Common/USBDevice/USBHID/USBHID.h \
- Common/USBDevice/USBDevice/USBEndpoints.h \
- Common/USBDevice/targets/TARGET_NXP/USBEndpoints_LPC17_LPC23.h \
- Common/USBDevice/USBDevice/USBDescriptor.h \
- Common/USBDevice/USBDevice/USBDevice_Types.h \
- Common/USBDevice/USBHID/USBHID_Types.h \
- Common/USBDevice/USBDevice/USBDevice.h \
- Common/USBDevice/USBDevice/USBDevice_Types.h \
- Common/USBDevice/USBDevice/USBHAL.h \
- Common/USBDevice/USBDevice/USBEndpoints.h \
- Labs/Lab1/Headers/BasicI2CTouchSwitch.hpp Common/MPR121/mpr121.h \
- Labs/Lab1/Headers/SPIDigitalExpander.hpp mbed-os/MCP23S17.h \
- mbed-os/mbed.h Labs/Lab1/Headers/BasicAnalogIn.hpp \
- Labs/Lab1/Headers/BasicAnalogOut.hpp
+ Labs/Lab2/Headers/Lab2.hpp Labs/Lab2/Headers/L21_I2CIMU.hpp \
+ Common/LSM9DS1/LSM9DS1.h Common/LSM9DS1/LSM9DS1_Registers.h \
+ Common/LSM9DS1/LSM9DS1_Types.h Labs/Lab2/Headers/L26_RelayDriver.hpp

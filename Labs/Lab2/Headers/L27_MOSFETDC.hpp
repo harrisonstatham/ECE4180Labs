@@ -10,8 +10,8 @@
 #ifndef L27_MOSFETDC_HPP
 #define L27_MOSFETDC_HPP
 
-#include "mbed.hpp" 
-#include "stdint.hpp" 
+#include "mbed.h" 
+#include "stdint.h" 
 
 
 namespace Lab2 

@@ -10,8 +10,8 @@
 #ifndef L25_EthernetNetworking_HPP
 #define L25_EthernetNetworking_HPP
 
-#include "mbed.hpp" 
-#include "stdint.hpp" 
+#include "mbed.h" 
+#include "stdint.h" 
 
 
 namespace Lab2 

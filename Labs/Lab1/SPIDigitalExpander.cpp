@@ -12,6 +12,7 @@
 namespace Lab1 {
 	void SPIDigitalExpander()
 	{
+		/*
 	// Create SPI bus
 	SPI spi(p5, p6, p7);
 	// 
@@ -66,6 +67,6 @@ namespace Lab1 {
 			wait(.2);
 			led1=1;
 			wait(.2);
-		}
+		}*/
 	}
 }

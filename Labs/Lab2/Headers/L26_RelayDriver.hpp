@@ -10,8 +10,8 @@
 #ifndef L26_RelayDriver_HPP
 #define L26_RelayDriver_HPP
 
-#include "mbed.hpp" 
-#include "stdint.hpp" 
+#include "mbed.h" 
+#include "stdint.h" 
 
 
 namespace Lab2 

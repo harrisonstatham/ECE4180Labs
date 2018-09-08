@@ -1,6 +1,6 @@
-BUILD\LPC1768\GCC_ARM\Common\USBDevice\USBMIDI\USBMIDI.o: \
- Common\USBDevice\USBMIDI\USBMIDI.cpp BUILD\LPC1768\GCC_ARM\mbed_config.h \
- Common\USBDevice\USBMIDI\USBMIDI.h \
+BUILD/LPC1768/GCC_ARM/Common/USBDevice/USBMIDI/USBMIDI.o: \
+ Common/USBDevice/USBMIDI/USBMIDI.cpp BUILD/LPC1768/GCC_ARM/mbed_config.h \
+ Common/USBDevice/USBMIDI/USBMIDI.h \
  Common/USBDevice/USBDevice/USBEndpoints.h \
  Common/USBDevice/targets/TARGET_NXP/USBEndpoints_LPC17_LPC23.h \
  Common/USBDevice/USBDevice/USBDescriptor.h \
@@ -132,4 +132,4 @@ BUILD\LPC1768\GCC_ARM\Common\USBDevice\USBMIDI\USBMIDI.o: \
  Common/USBDevice/USBDevice/USBDevice_Types.h \
  Common/USBDevice/USBDevice/USBHAL.h \
  Common/USBDevice/USBDevice/USBEndpoints.h \
- Common\USBDevice\USBMIDI\MIDIMessage.h
+ Common/USBDevice/USBMIDI/MIDIMessage.h

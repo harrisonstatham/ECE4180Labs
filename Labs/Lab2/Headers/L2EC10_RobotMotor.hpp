@@ -10,8 +10,8 @@
 #ifndef L2EC10_RobotMotor_HPP
 #define L2EC10_RobotMotor_HPP
 
-#include "mbed.hpp" 
-#include "stdint.hpp" 
+#include "mbed.h" 
+#include "stdint.h" 
 
 
 namespace Lab2 

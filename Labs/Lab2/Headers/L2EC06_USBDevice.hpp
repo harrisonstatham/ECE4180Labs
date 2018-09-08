@@ -10,8 +10,8 @@
 #ifndef L2EC06_USBDevice_HPP
 #define L2EC06_USBDevice_HPP
 
-#include "mbed.hpp" 
-#include "stdint.hpp" 
+#include "mbed.h" 
+#include "stdint.h" 
 
 
 namespace Lab2 

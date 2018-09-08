@@ -11,16 +11,19 @@
 
 #include "L21_I2CIMU.hpp" 
 
+Serial pc(USBTX, USBRX);
+
 namespace Lab2 
 {
 
 	void L21_I2CIMU()
 	{ 
 		DigitalOut myled(LED1);
-		Serial pc(USBTX, USBRX);
-
+		
 		LSM9DS1 imu(p9, p10, 0xD6, 0x3C);
+
 		imu.begin();
+
 		if (!imu.begin()) {
 			pc.printf("Failed to communicate with LSM9DS1.\n");
 		}

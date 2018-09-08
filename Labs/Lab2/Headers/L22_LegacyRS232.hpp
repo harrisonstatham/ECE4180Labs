@@ -10,8 +10,8 @@
 #ifndef L22_LegacyRS232_HPP
 #define L22_LegacyRS232_HPP
 
-#include "mbed.hpp" 
-#include "stdint.hpp" 
+#include "mbed.h" 
+#include "stdint.h" 
 
 
 namespace Lab2 

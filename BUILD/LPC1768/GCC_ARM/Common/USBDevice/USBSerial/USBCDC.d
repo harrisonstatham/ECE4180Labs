@@ -1,6 +1,6 @@
-BUILD\LPC1768\GCC_ARM\Common\USBDevice\USBSerial\USBCDC.o: \
- Common\USBDevice\USBSerial\USBCDC.cpp \
- BUILD\LPC1768\GCC_ARM\mbed_config.h Common\USBDevice\USBSerial\USBCDC.h \
+BUILD/LPC1768/GCC_ARM/Common/USBDevice/USBSerial/USBCDC.o: \
+ Common/USBDevice/USBSerial/USBCDC.cpp \
+ BUILD/LPC1768/GCC_ARM/mbed_config.h Common/USBDevice/USBSerial/USBCDC.h \
  Common/USBDevice/USBDevice/USBEndpoints.h \
  Common/USBDevice/targets/TARGET_NXP/USBEndpoints_LPC17_LPC23.h \
  Common/USBDevice/USBDevice/USBDescriptor.h \

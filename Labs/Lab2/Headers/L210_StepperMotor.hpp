@@ -10,8 +10,8 @@
 #ifndef L210_StepperMotor_HPP
 #define L210_StepperMotor_HPP
 
-#include "mbed.hpp" 
-#include "stdint.hpp" 
+#include "mbed.h" 
+#include "stdint.h" 
 
 
 namespace Lab2 

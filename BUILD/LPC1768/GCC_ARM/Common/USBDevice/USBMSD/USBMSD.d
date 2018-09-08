@@ -1,6 +1,6 @@
-BUILD\LPC1768\GCC_ARM\Common\USBDevice\USBMSD\USBMSD.o: \
- Common\USBDevice\USBMSD\USBMSD.cpp BUILD\LPC1768\GCC_ARM\mbed_config.h \
- Common\USBDevice\USBMSD\USBMSD.h \
+BUILD/LPC1768/GCC_ARM/Common/USBDevice/USBMSD/USBMSD.o: \
+ Common/USBDevice/USBMSD/USBMSD.cpp BUILD/LPC1768/GCC_ARM/mbed_config.h \
+ Common/USBDevice/USBMSD/USBMSD.h \
  Common/USBDevice/USBDevice/USBEndpoints.h \
  Common/USBDevice/targets/TARGET_NXP/USBEndpoints_LPC17_LPC23.h \
  Common/USBDevice/USBDevice/USBDescriptor.h \

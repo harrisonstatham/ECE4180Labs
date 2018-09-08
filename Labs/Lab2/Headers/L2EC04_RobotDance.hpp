@@ -10,8 +10,8 @@
 #ifndef L2EC04_RobotDance_HPP
 #define L2EC04_RobotDance_HPP
 
-#include "mbed.hpp" 
-#include "stdint.hpp" 
+#include "mbed.h" 
+#include "stdint.h" 
 
 
 namespace Lab2 

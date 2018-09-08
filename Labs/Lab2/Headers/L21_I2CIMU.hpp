@@ -8,8 +8,8 @@
 #ifndef L21_I2CIMU_HPP
 #define L21_I2CIMU_HPP
 
-#include "mbed.hpp" 
-#include "stdint.hpp" 
+#include "mbed.h" 
+#include "stdint.h" 
 
 #include "LSM9DS1.h"
 

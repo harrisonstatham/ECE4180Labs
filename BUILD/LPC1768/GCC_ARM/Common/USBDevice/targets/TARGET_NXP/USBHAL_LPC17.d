@@ -1,6 +1,6 @@
-BUILD\LPC1768\GCC_ARM\Common\USBDevice\targets\TARGET_NXP\USBHAL_LPC17.o: \
- Common\USBDevice\targets\TARGET_NXP\USBHAL_LPC17.cpp \
- BUILD\LPC1768\GCC_ARM\mbed_config.h Common/USBDevice/USBDevice/USBHAL.h \
+BUILD/LPC1768/GCC_ARM/Common/USBDevice/targets/TARGET_NXP/USBHAL_LPC17.o: \
+ Common/USBDevice/targets/TARGET_NXP/USBHAL_LPC17.cpp \
+ BUILD/LPC1768/GCC_ARM/mbed_config.h Common/USBDevice/USBDevice/USBHAL.h \
  mbed-os/mbed.h mbed-os/platform/mbed_version.h mbed-os/rtos/rtos.h \
  mbed-os/rtos/TARGET_CORTEX/mbed_rtos_storage.h \
  mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_lib.h \

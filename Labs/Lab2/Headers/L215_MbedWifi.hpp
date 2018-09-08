@@ -10,8 +10,8 @@
 #ifndef L215_MbedWifi_HPP
 #define L215_MbedWifi_HPP
 
-#include "mbed.hpp" 
-#include "stdint.hpp" 
+#include "mbed.h" 
+#include "stdint.h"
 
 
 namespace Lab2 

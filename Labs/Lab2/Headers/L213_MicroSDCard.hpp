@@ -10,8 +10,8 @@
 #ifndef L213_MicroSDCard_HPP
 #define L213_MicroSDCard_HPP
 
-#include "mbed.hpp" 
-#include "stdint.hpp" 
+#include "mbed.h" 
+#include "stdint.h" 
 
 
 namespace Lab2 

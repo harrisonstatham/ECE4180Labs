@@ -10,8 +10,8 @@
 #ifndef L28_Solenoid_HPP
 #define L28_Solenoid_HPP
 
-#include "mbed.hpp" 
-#include "stdint.hpp" 
+#include "mbed.h" 
+#include "stdint.h" 
 
 
 namespace Lab2 
