@@ -13,6 +13,8 @@
 #include "mbed.h" 
 #include "stdint.h" 
 
+#include "LSM9DS1.h"
+#include "uLCD_4DGL.h"
 
 namespace Lab2 
 {

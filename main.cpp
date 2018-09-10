@@ -14,6 +14,8 @@
 
 #include "Lab2.hpp"
 
+Serial pc(USBTX, USBRX);
+
 int main() {
     
 
@@ -55,7 +57,9 @@ int main() {
 
     #pragma region Lab 2
 
-    Lab2::L21_I2CIMU();
+    //Lab2::L21_I2CIMU();
+
+    Lab2::L23_SerialULCD();
 
     //Lab2::L26_RelayDriver();
 

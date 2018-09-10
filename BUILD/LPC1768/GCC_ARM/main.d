@@ -125,4 +125,5 @@ BUILD/LPC1768/GCC_ARM/main.o: main.cpp \
  mbed-os/platform/FunctionPointer.h mbed-os/platform/ScopedLock.h \
  Labs/Lab2/Headers/Lab2.hpp Labs/Lab2/Headers/L21_I2CIMU.hpp \
  Common/LSM9DS1/LSM9DS1.h Common/LSM9DS1/LSM9DS1_Registers.h \
- Common/LSM9DS1/LSM9DS1_Types.h Labs/Lab2/Headers/L26_RelayDriver.hpp
+ Common/LSM9DS1/LSM9DS1_Types.h Labs/Lab2/Headers/L23_SerialULCD.hpp \
+ Common/4DGLuLCDSE/uLCD_4DGL.h Labs/Lab2/Headers/L26_RelayDriver.hpp

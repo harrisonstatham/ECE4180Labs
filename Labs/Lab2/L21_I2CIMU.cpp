@@ -11,7 +11,7 @@
 
 #include "L21_I2CIMU.hpp" 
 
-Serial pc(USBTX, USBRX);
+extern Serial pc;
 
 namespace Lab2 
 {

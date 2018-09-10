@@ -1,5 +1,13 @@
 [
     {
+        "module": "Common/4DGLuLCDSE", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 1562
+        }
+    }, 
+    {
         "module": "Common/LSM9DS1", 
         "size": {
             ".data": 16, 
@@ -20,7 +28,7 @@
         "size": {
             ".data": 0, 
             ".bss": 0, 
-            ".text": 119
+            ".text": 75
         }
     }, 
     {
@@ -42,9 +50,9 @@
     {
         "module": "Labs/Lab2", 
         "size": {
-            ".data": 4, 
-            ".bss": 108, 
-            ".text": 443
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 346
         }
     }, 
     {
@@ -52,7 +60,7 @@
         "size": {
             ".data": 4, 
             ".bss": 12, 
-            ".text": 665
+            ".text": 662
         }
     }, 
     {
@@ -60,7 +68,7 @@
         "size": {
             ".data": 2472, 
             ".bss": 89, 
-            ".text": 27885
+            ".text": 28249
         }
     }, 
     {
@@ -82,9 +90,9 @@
     {
         "module": "main.o", 
         "size": {
-            ".data": 0, 
-            ".bss": 0, 
-            ".text": 8
+            ".data": 4, 
+            ".bss": 108, 
+            ".text": 68
         }
     }, 
     {
@@ -92,7 +100,7 @@
         "size": {
             ".data": 0, 
             ".bss": 44, 
-            ".text": 1419
+            ".text": 1491
         }
     }, 
     {
@@ -108,7 +116,7 @@
         "size": {
             ".data": 260, 
             ".bss": 217, 
-            ".text": 4826
+            ".text": 4906
         }
     }, 
     {
@@ -130,7 +138,7 @@
     {
         "summary": {
             "static_ram": 10260, 
-            "total_flash": 61631
+            "total_flash": 63625
         }
     }
 ]
