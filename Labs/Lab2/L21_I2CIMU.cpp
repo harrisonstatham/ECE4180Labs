@@ -29,13 +29,13 @@ namespace Lab2
 		}
 		imu.calibrate();
 		while(1) {
-			imu.readTemp();
-			imu.readMag();
+			//imu.readTemp();
+			//imu.readMag();
 			imu.readGyro();
 	
 			pc.printf("gyro: %d %d %d\n\r", imu.gx, imu.gy, imu.gz);
-			pc.printf("accel: %d %d %d\n\r", imu.ax, imu.ay, imu.az);
-			pc.printf("mag: %d %d %d\n\n\r", imu.mx, imu.my, imu.mz);
+			//pc.printf("accel: %d %d %d\n\r", imu.ax, imu.ay, imu.az);
+			//pc.printf("mag: %d %d %d\n\n\r", imu.mx, imu.my, imu.mz);
 			wait(1);
 		}
 	} 

@@ -1,22 +1,22 @@
 [
     {
-        "module": "Common/4DGLuLCDSE", 
+        "module": "Common\\4DGLuLCDSE", 
         "size": {
             ".data": 0, 
             ".bss": 0, 
-            ".text": 1562
+            ".text": 138
         }
     }, 
     {
-        "module": "Common/LSM9DS1", 
+        "module": "Common\\LSM9DS1", 
         "size": {
             ".data": 16, 
             ".bss": 0, 
-            ".text": 1967
+            ".text": 1847
         }
     }, 
     {
-        "module": "Common/MPR121", 
+        "module": "Common\\MPR121", 
         "size": {
             ".data": 0, 
             ".bss": 0, 
@@ -24,7 +24,7 @@
         }
     }, 
     {
-        "module": "Common/USBDevice", 
+        "module": "Common\\USBDevice", 
         "size": {
             ".data": 0, 
             ".bss": 0, 
@@ -32,7 +32,7 @@
         }
     }, 
     {
-        "module": "Examples/LEDBinaryCounter.o", 
+        "module": "Examples\\LEDBinaryCounter.o", 
         "size": {
             ".data": 0, 
             ".bss": 0, 
@@ -40,7 +40,7 @@
         }
     }, 
     {
-        "module": "Labs/Lab1", 
+        "module": "Labs\\Lab1", 
         "size": {
             ".data": 8, 
             ".bss": 232, 
@@ -48,11 +48,11 @@
         }
     }, 
     {
-        "module": "Labs/Lab2", 
+        "module": "Labs\\Lab2", 
         "size": {
             ".data": 0, 
             ".bss": 0, 
-            ".text": 346
+            ".text": 190
         }
     }, 
     {
@@ -60,19 +60,19 @@
         "size": {
             ".data": 4, 
             ".bss": 12, 
-            ".text": 662
+            ".text": 660
         }
     }, 
     {
-        "module": "[lib]/c.a", 
+        "module": "[lib]\\c.a", 
         "size": {
             ".data": 2472, 
             ".bss": 89, 
-            ".text": 28249
+            ".text": 27885
         }
     }, 
     {
-        "module": "[lib]/gcc.a", 
+        "module": "[lib]\\gcc.a", 
         "size": {
             ".data": 0, 
             ".bss": 0, 
@@ -80,7 +80,7 @@
         }
     }, 
     {
-        "module": "[lib]/misc", 
+        "module": "[lib]\\misc", 
         "size": {
             ".data": 12, 
             ".bss": 28, 
@@ -96,15 +96,15 @@
         }
     }, 
     {
-        "module": "mbed-os/drivers", 
+        "module": "mbed-os\\drivers", 
         "size": {
             ".data": 0, 
             ".bss": 44, 
-            ".text": 1491
+            ".text": 1419
         }
     }, 
     {
-        "module": "mbed-os/hal", 
+        "module": "mbed-os\\hal", 
         "size": {
             ".data": 4, 
             ".bss": 68, 
@@ -112,15 +112,15 @@
         }
     }, 
     {
-        "module": "mbed-os/platform", 
+        "module": "mbed-os\\platform", 
         "size": {
             ".data": 260, 
             ".bss": 217, 
-            ".text": 4906
+            ".text": 4826
         }
     }, 
     {
-        "module": "mbed-os/rtos", 
+        "module": "mbed-os\\rtos", 
         "size": {
             ".data": 168, 
             ".bss": 6073, 
@@ -128,7 +128,7 @@
         }
     }, 
     {
-        "module": "mbed-os/targets", 
+        "module": "mbed-os\\targets", 
         "size": {
             ".data": 4, 
             ".bss": 437, 
@@ -138,7 +138,7 @@
     {
         "summary": {
             "static_ram": 10260, 
-            "total_flash": 63625
+            "total_flash": 61407
         }
     }
 ]
