@@ -1,11 +1,12 @@
 
 //--------------------------------------------------------------------------
-// Lab2.x 
+// Lab2.4
 //
 // 
-//
+// Demonstrate an HTTP client executing a GET request to a server. It should use the USB virtual 
+// com port to display useful connection information
 // 
-//
+// Kristina Beck
 
 
 
